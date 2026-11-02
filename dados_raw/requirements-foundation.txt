@@ -1,0 +1,5 @@
+-r requirements-web.txt
+scikit-learn>=1.5,<2
+# Backends de foundation models. Instalar em ambiente isolado é recomendado.
+# micro-sam[all]>=1.7
+
