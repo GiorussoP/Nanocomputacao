@@ -152,7 +152,7 @@ def main() -> None:
             features.append(embedder(Path(record.path)))
         save_embeddings(
             args.output, features, [item.image_id for item in records],
-            [item.path for item in records], [item.group for item in records],
+            [item.relative_path for item in records], [item.group for item in records],
             [item.modality for item in records], [item.pair_key for item in records],
         )
         return

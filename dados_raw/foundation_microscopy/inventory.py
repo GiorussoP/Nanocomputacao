@@ -13,6 +13,7 @@ MODALITIES = ("SHG", "TPEF", "CARS", "SRS")
 DATE_PATTERN = re.compile(r"\b\d{2}-\d{2}(?:-\d{4})?\b")
 ACQUISITION_PATTERN = re.compile(r"(?<!\d)(\d{1,2})\s*[_ ]?acq", re.IGNORECASE)
 LEADING_SAMPLE_PATTERN = re.compile(r"^(\d{1,2})(?:[._-]|\s)")
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
 
 @dataclass(frozen=True)
@@ -100,21 +101,32 @@ def scan(root: Path) -> list[ImageRecord]:
     for path in sorted(root.rglob("*")):
         if not path.is_file() or path.suffix.lower() not in SUPPORTED_SUFFIXES:
             continue
-        relative = path.relative_to(root)
-        group = relative.parts[0] if len(relative.parts) > 1 else root.name
-        modality, channel = detect_modality(relative, group)
-        context = " ".join(relative.parts)
+
+        rel_to_root = path.relative_to(root)                # BOCA/1.tif  (p/ lógica interna)
+        try:
+            rel_to_project = path.relative_to(PROJECT_ROOT)
+        except ValueError:
+            # root fora do projeto: mantém relativo ao root (comportamento antigo)
+            rel_to_project = rel_to_root
+
+        group = rel_to_root.parts[0] if len(rel_to_root.parts) > 1 else root.name
+        # ↑ continua sendo "BOCA" — não muda!
+
+        modality, channel = detect_modality(rel_to_root, group)
+        context = " ".join(rel_to_root.parts)
         acquisition = _first_match(ACQUISITION_PATTERN, context)
-        sample_id = _first_match(LEADING_SAMPLE_PATTERN, relative.parent.name)
-        pair_key, pair_quality = _pairing(relative, modality, channel)
-        relative_text = relative.as_posix()
+        sample_id = _first_match(LEADING_SAMPLE_PATTERN, rel_to_root.parent.name)
+        pair_key, pair_quality = _pairing(rel_to_root, modality, channel)
+
+        relative_text = rel_to_project.as_posix()           # ← o que vai pro .npz
+
         records.append(
             ImageRecord(
-                image_id=hashlib.sha1(relative_text.encode()).hexdigest()[:16],
+                image_id=hashlib.sha1(rel_to_root.as_posix().encode()).hexdigest()[:16],
                 path=str(path),
-                relative_path=relative_text,
-                group=group,
-                subgroup=_subgroup(relative),
+                relative_path=relative_text,                # raw/IMAGENS/BOCA/1.tif
+                group=group,                                # continua BOCA
+                subgroup=_subgroup(rel_to_root),            # idem
                 modality=modality,
                 channel=channel,
                 acquisition=acquisition,

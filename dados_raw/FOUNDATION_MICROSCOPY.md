@@ -58,8 +58,21 @@ Execução com micro-sam:
 python -m foundation_microscopy.cli segment \
   --group BOCA --backend microsam \
   --microsam-python /caminho/do/ambiente/bin/python
+  #Normalmente esse último vai ser:  --microsam-python .foundation-env/bin/python
 ```
+Caso dê erro, siga os passos descritos e execute o seguinte comando para usar a biblioteca do próprio microsam:
+  - Renomeie o microsam_bridge.py para microsam_bridge_2.py
+  - Renomeie o microsam_bridge_1.py para microsam_bridge.py
 
+execute o comando:
+
+```bash
+  python -m foundation_microscopy.cli segment \
+  --group BOCA --backend microsam \
+  --microsam-python .foundation-env/bin/python \
+  --model-type vit_b \
+  --mode amg
+``` 
 As máscaras são gravadas por `grupo/modalidade`, o que permite avaliar SHG,
 TPEF, CARS e SRS de forma independente.
 
@@ -69,6 +82,7 @@ Para segmentar conjuntamente os canais SRS e CARS simultâneos:
 python -m foundation_microscopy.cli segment-fused \
   --group BOCA --modalities SRS,CARS --backend microsam \
   --microsam-python /caminho/do/ambiente/bin/python
+  #Normalmente sse último vai ser:  --microsam-python .foundation-env/bin/python
 ```
 
 O comando monta uma composição RGB e, por padrão, aceita apenas pares `exact`.

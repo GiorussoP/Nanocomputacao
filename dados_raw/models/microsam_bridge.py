@@ -45,13 +45,27 @@ def main() -> None:
         model_type=args.model_type,
         segmentation_mode=args.mode,
     )
+
+    # `amg` usa o SamAutomaticMaskGenerator do SAM original, cujo generate()
+    # não aceita `min_size`. Já `apg`/`ais` (decoder fine-tuned do micro-SAM)
+    # aceitam. Passamos `min_size` só quando suportado; no `amg`, filtramos
+    # as instâncias pequenas depois da geração.
+    kwargs = {"ndim": 2}
+    if args.mode != "amg":
+        kwargs["min_size"] = args.min_size
+
     instances = automatic_instance_segmentation(
         predictor,
         segmenter,
         prepared,
-        ndim=2,
-        min_size=args.min_size,
+        **kwargs,
     )
+
+    if args.mode == "amg" and args.min_size and args.min_size > 0:
+        labels, counts = np.unique(instances, return_counts=True)
+        pequenas = labels[(counts < args.min_size) & (labels != 0)]
+        if pequenas.size:
+            instances = np.where(np.isin(instances, pequenas), 0, instances)
 
     args.output.parent.mkdir(parents=True, exist_ok=True)
     np.savez_compressed(args.output, instances=np.asarray(instances, dtype=np.uint32))
