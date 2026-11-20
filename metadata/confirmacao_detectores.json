@@ -1,0 +1,22 @@
+{
+  "status": "confirmado",
+  "convencao": {
+    "PMT1_C0": "CARS",
+    "PMT2_C1": "SRS"
+  },
+  "metodo_confirmacao": "configuracao_optica_equipamento",
+  "responsavel": "Giovanni",
+  "data_confirmacao_utc": "2026-11-20T18:20:09+00:00",
+  "observacao": "PMT1/C0 confirmado como CARS e PMT2/C1 confirmado como SRS para aquisições simultâneas.",
+  "auditoria_indice": {
+    "total_arquivos_srs_cars": 96,
+    "total_pares_exatos": 48,
+    "modalidades_encontradas_PMT1": [
+      "CARS"
+    ],
+    "modalidades_encontradas_PMT2": [
+      "SRS"
+    ],
+    "inconsistencias_encontradas": 0
+  }
+}

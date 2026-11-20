@@ -1,0 +1,29 @@
+condicao,campo_group_id,n_imagens,n_anotadas,modalidades,tem_gabarito,split
+11-01-2025,11-01-2025__sample_1,112,6,"CARS,SHG,SRS,TPEF",True,train
+CORADO,CORADO__sample_1,2,0,"SHG,TPEF",False,train
+CORADO,CORADO__sample_2,2,0,"SHG,TPEF",False,train
+CORADO,CORADO__sample_3,2,2,"SHG,TPEF",True,train
+CORADO,CORADO__sample_4,2,2,"SHG,TPEF",True,train
+CORADO,CORADO__sample_5,2,2,"SHG,TPEF",True,train
+CORADO,CORADO__sample_6,2,0,"SHG,TPEF",False,train
+CORADO,CORADO__sample_7,2,0,"SHG,TPEF",False,test
+CORADO,CORADO__sample_8,2,2,"SHG,TPEF",True,test
+SEM CORAR,SEM CORAR__sample_1,1,0,SHG,False,train
+SEM CORAR,SEM CORAR__sample_10,2,0,"SHG,TPEF",False,train
+SEM CORAR,SEM CORAR__sample_11,2,0,"SHG,TPEF",False,test
+SEM CORAR,SEM CORAR__sample_12,2,0,"SHG,TPEF",False,train
+SEM CORAR,SEM CORAR__sample_13,2,2,"SHG,TPEF",True,test
+SEM CORAR,SEM CORAR__sample_14,2,2,"SHG,TPEF",True,train
+SEM CORAR,SEM CORAR__sample_15,2,2,"SHG,TPEF",True,train
+SEM CORAR,SEM CORAR__sample_16,2,2,"SHG,TPEF",True,test
+SEM CORAR,SEM CORAR__sample_17,2,0,"SHG,TPEF",False,test
+SEM CORAR,SEM CORAR__sample_18,2,2,"SHG,TPEF",True,train
+SEM CORAR,SEM CORAR__sample_19,2,0,"SHG,TPEF",False,train
+SEM CORAR,SEM CORAR__sample_2,1,0,SHG,False,train
+SEM CORAR,SEM CORAR__sample_3,2,0,"SHG,TPEF",False,test
+SEM CORAR,SEM CORAR__sample_4,2,0,"SHG,TPEF",False,train
+SEM CORAR,SEM CORAR__sample_5,2,0,"SHG,TPEF",False,test
+SEM CORAR,SEM CORAR__sample_6,2,0,"SHG,TPEF",False,train
+SEM CORAR,SEM CORAR__sample_7,1,0,SHG,False,train
+SEM CORAR,SEM CORAR__sample_8,1,0,SHG,False,test
+SEM CORAR,SEM CORAR__sample_9,1,0,SHG,False,train
