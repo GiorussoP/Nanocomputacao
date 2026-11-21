@@ -1,0 +1,45 @@
+BOCA — interpretação dos clusters (k = 4)
+
+As porcentagens entre parênteses indicam a cobertura segmentada mediana dos recortes, na ordem CARS / SRS. O brilho se refere à intensidade normalizada. Cada método agrupa os recortes independentemente.
+
+Clássico
+Cluster 0 (0,0% / 0,0%) — Recortes escuros e quase inteiramente abaixo do limiar.
+Cluster 1 (39,8% / 80,5%) — Cobertura extensa nos dois canais, com predomínio de SRS nos 47 campos.
+Cluster 2 (0,2% / 2,1%) — Sinal esparso, com vários componentes SRS ocupando pouca área.
+Cluster 3 (22,4% / 28,4%) — Coberturas próximas, repartidas entre muitos componentes em ambos os canais.
+
+DINOv2
+Cluster 0 (0,0% / 0,4%) — Cobertura mínima apesar de brilho CARS superior ao do cluster DINOv2 1.
+Cluster 1 (0,1% / 1,7%) — Recortes mais escuros, com pequenas detecções principalmente em SRS.
+Cluster 2 (30,8% / 75,4%) — SRS cobre cerca de três quartos do recorte e CARS quase um terço.
+Cluster 3 (3,0% / 21,2%) — SRS ocupa uma parcela apreciável do recorte, enquanto CARS se restringe a poucas regiões.
+
+Walleriana — CARS
+
+Clássico
+Cluster 0 — Cobertura extensa (71%) concentrada em três componentes medianos.
+Cluster 1 — Muitos componentes (mediana de 36,5) repartem uma área positiva moderada (22%).
+Cluster 2 — Recortes escuros e quase sem sinal segmentado (0,4%).
+Cluster 3 — Cobertura intermediária (28%), com menos componentes que no clássico 1.
+
+DINOv2
+Cluster 0 — Sinal esparso (7% de cobertura), com poucos componentes.
+Cluster 1 — Cobertura intermediária (41%), observada em 37 campos.
+Cluster 2 — Muitos componentes (25) para pouca área positiva (17%); perfil de seis campos.
+Cluster 3 — Sinal extenso (57%) concentrado em poucos componentes (5).
+
+Walleriana — SRS
+
+Clássico
+Cluster 0 — Ampla cobertura (81%) concentrada em dois componentes.
+Cluster 1 — Cobertura parcial (25%) distribuída entre numerosos componentes.
+Cluster 2 — Pouca área positiva (4%) e baixo brilho.
+Cluster 3 — Sinal extenso (66%) com maior variação interna de brilho que no clássico 0.
+
+DINOv2
+Cluster 0 — Cobertura baixa (13%) distribuída entre 14 componentes.
+Cluster 1 — Cerca de metade do recorte positiva (51%), com poucos componentes; presente em sete das oito imagens.
+Cluster 2 — Cobertura semelhante (48%), mas maior variação de brilho e mais componentes; restrito a duas imagens.
+Cluster 3 — Sinal amplo (57%) e mais uniforme que nos grupos DINOv2 1 e 2.
+
+As descrições caracterizam a aparência do sinal. Em Walleriana, muitos componentes com baixa cobertura sugerem regiões a examinar quanto à fragmentação; a identidade da estrutura exige validação independente.

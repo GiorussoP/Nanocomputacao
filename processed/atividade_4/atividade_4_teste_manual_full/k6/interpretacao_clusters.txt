@@ -1,0 +1,19 @@
+BOCA — interpretação dos clusters (k = 6)
+
+As porcentagens entre parênteses indicam a cobertura segmentada mediana dos recortes, na ordem CARS / SRS. O brilho se refere à intensidade normalizada. Cada método agrupa os recortes independentemente.
+
+Clássico
+Cluster 0 (24,9% / 50,5%) — SRS cobre metade do recorte; CARS ocupa um quarto, com mais componentes.
+Cluster 1 (0,1% / 1,5%) — Pequenas detecções, principalmente em SRS.
+Cluster 2 (23,0% / 25,8%) — Coberturas semelhantes distribuídas entre muitos componentes nos dois canais.
+Cluster 3 (0,0% / 0,0%) — Recortes escuros com mediana de zero componentes.
+Cluster 4 (52,4% / 81,0%) — Ampla cobertura em ambos os canais, presente nos 47 campos.
+Cluster 5 (0,0% / 100,0%) — Contraste extremo de um só campo, com SRS positivo em todo o recorte mediano.
+
+DINOv2
+Cluster 0 (30,8% / 74,7%) — SRS extenso e CARS intermediário, com poucos componentes SRS.
+Cluster 1 (0,3% / 2,3%) — Detecções esparsas e um pouco mais de área positiva que nos demais perfis DINOv2 de baixa cobertura.
+Cluster 2 (34,7% / 63,5%) — Sinal extenso em ambos os canais, com mais componentes CARS que no cluster DINOv2 0.
+Cluster 3 (0,1% / 1,9%) — Pouca área segmentada apesar do brilho CARS relativamente alto.
+Cluster 4 (0,1% / 1,7%) — Recortes escuros com pequenas detecções SRS.
+Cluster 5 (0,0% / 0,0%) — Cobertura e contagem medianas praticamente nulas nos dois canais.
