@@ -1,0 +1,141 @@
+image_id,condicao,split,has_gt,metodo,metodo_label,cobertura_pred_pct,cobertura_gt_pct,erro_cobertura_abs_pp,dice,iou,precisao,revocacao
+1fc652324e8ae38b,11-01-2025,train,False,microsam,micro-sam,0.7331,,,,,,
+1fc652324e8ae38b,11-01-2025,train,False,cellpose_sam,Cellpose-SAM,0.0,,,,,,
+1fc652324e8ae38b,11-01-2025,train,False,curvelet_fire,Curvelet + FIRE/CT-FIRE,21.4268,,,,,,
+1fc652324e8ae38b,11-01-2025,train,False,sato_otsu,Sato + Otsu + Morfologia,6.2886999999999995,,,,,,
+77547fcc706d3359,11-01-2025,train,False,microsam,micro-sam,0.0,,,,,,
+77547fcc706d3359,11-01-2025,train,False,cellpose_sam,Cellpose-SAM,0.0,,,,,,
+77547fcc706d3359,11-01-2025,train,False,curvelet_fire,Curvelet + FIRE/CT-FIRE,33.7605,,,,,,
+77547fcc706d3359,11-01-2025,train,False,sato_otsu,Sato + Otsu + Morfologia,5.3301,,,,,,
+81f8ce1abde95e29,11-01-2025,train,True,microsam,micro-sam,2.7829,4.1922,1.4092999999999996,0.7979527175237631,0.6638280616382806,1.0,0.6638280616382806
+81f8ce1abde95e29,11-01-2025,train,True,cellpose_sam,Cellpose-SAM,0.0,4.1922,4.1922,0.0,0.0,0.0,0.0
+81f8ce1abde95e29,11-01-2025,train,True,curvelet_fire,Curvelet + FIRE/CT-FIRE,18.8229,4.1922,14.630700000000001,0.23422883237526668,0.13264959620466837,0.14319791318022196,0.6429559658413244
+81f8ce1abde95e29,11-01-2025,train,True,sato_otsu,Sato + Otsu + Morfologia,5.9319,4.1922,1.7397,0.296678223249474,0.17417626387390836,0.2531735194457088,0.3582367253470731
+b70c6661d02397d4,11-01-2025,train,True,microsam,micro-sam,2.265,6.0068,3.7418,0.46623467685388914,0.3039804524316229,0.8513465783664459,0.3210195112206166
+b70c6661d02397d4,11-01-2025,train,True,cellpose_sam,Cellpose-SAM,0.0,6.0068,6.0068,0.0,0.0,0.0,0.0
+b70c6661d02397d4,11-01-2025,train,True,curvelet_fire,Curvelet + FIRE/CT-FIRE,19.6613,6.0068,13.6545,0.32625710512270095,0.19492665577326834,0.21296658918789704,0.697076646467337
+b70c6661d02397d4,11-01-2025,train,True,sato_otsu,Sato + Otsu + Morfologia,6.1749,6.0068,0.16809999999999992,0.386366434898249,0.23943876928085955,0.38110738635443486,0.3917726576546581
+c1c6c9e1d2f3876c,11-01-2025,train,False,microsam,micro-sam,1.6957,,,,,,
+c1c6c9e1d2f3876c,11-01-2025,train,False,cellpose_sam,Cellpose-SAM,0.0,,,,,,
+c1c6c9e1d2f3876c,11-01-2025,train,False,curvelet_fire,Curvelet + FIRE/CT-FIRE,20.9144,,,,,,
+c1c6c9e1d2f3876c,11-01-2025,train,False,sato_otsu,Sato + Otsu + Morfologia,6.0137,,,,,,
+c2bb9f6af3156869,11-01-2025,train,False,microsam,micro-sam,0.0,,,,,,
+c2bb9f6af3156869,11-01-2025,train,False,cellpose_sam,Cellpose-SAM,0.0,,,,,,
+c2bb9f6af3156869,11-01-2025,train,False,curvelet_fire,Curvelet + FIRE/CT-FIRE,22.8502,,,,,,
+c2bb9f6af3156869,11-01-2025,train,False,sato_otsu,Sato + Otsu + Morfologia,6.1873,,,,,,
+c57e5feb10cb8cdf,11-01-2025,train,False,microsam,micro-sam,3.5688999999999997,,,,,,
+c57e5feb10cb8cdf,11-01-2025,train,False,cellpose_sam,Cellpose-SAM,0.0,,,,,,
+c57e5feb10cb8cdf,11-01-2025,train,False,curvelet_fire,Curvelet + FIRE/CT-FIRE,18.742,,,,,,
+c57e5feb10cb8cdf,11-01-2025,train,False,sato_otsu,Sato + Otsu + Morfologia,5.9519,,,,,,
+ce6252a521c21eff,11-01-2025,train,True,microsam,micro-sam,2.2251,4.3543,2.1292000000000004,0.6763838647901025,0.5110121029786647,1.0,0.5110121029786647
+ce6252a521c21eff,11-01-2025,train,True,cellpose_sam,Cellpose-SAM,0.0,4.3543,4.3543,0.0,0.0,0.0,0.0
+ce6252a521c21eff,11-01-2025,train,True,curvelet_fire,Curvelet + FIRE/CT-FIRE,20.2761,4.3543,15.9218,0.2362771209562167,0.13396499175897536,0.14350886018514408,0.668258962404979
+ce6252a521c21eff,11-01-2025,train,True,sato_otsu,Sato + Otsu + Morfologia,6.116499999999999,4.3543,1.762199999999999,0.31884860755625166,0.18966085326364823,0.2729175181885065,0.38336816480260894
+0eddc161402fcfca,CORADO,train,False,microsam,micro-sam,8.6092,,,,,,
+0eddc161402fcfca,CORADO,train,False,cellpose_sam,Cellpose-SAM,0.0332,,,,,,
+0eddc161402fcfca,CORADO,train,False,curvelet_fire,Curvelet + FIRE/CT-FIRE,11.942400000000001,,,,,,
+0eddc161402fcfca,CORADO,train,False,sato_otsu,Sato + Otsu + Morfologia,3.9696000000000002,,,,,,
+1858938a572c7b77,CORADO,test,False,microsam,micro-sam,24.5888,,,,,,
+1858938a572c7b77,CORADO,test,False,cellpose_sam,Cellpose-SAM,0.11800000000000001,,,,,,
+1858938a572c7b77,CORADO,test,False,curvelet_fire,Curvelet + FIRE/CT-FIRE,21.8876,,,,,,
+1858938a572c7b77,CORADO,test,False,sato_otsu,Sato + Otsu + Morfologia,6.4688,,,,,,
+576059c79f2a0263,CORADO,test,True,microsam,micro-sam,30.1032,29.9724,0.1308000000000007,0.9859310601974846,0.972252498325695,0.9837890988333466,0.9880823691129172
+576059c79f2a0263,CORADO,test,True,cellpose_sam,Cellpose-SAM,0.0,29.9724,29.9724,0.0,0.0,0.0,0.0
+576059c79f2a0263,CORADO,test,True,curvelet_fire,Curvelet + FIRE/CT-FIRE,27.084000000000003,29.9724,2.888399999999997,0.5985095449414964,0.4270521734780651,0.6304238664894403,0.5696707637693345
+576059c79f2a0263,CORADO,test,True,sato_otsu,Sato + Otsu + Morfologia,7.215199999999999,29.9724,22.7572,0.3765341135217115,0.23193226088569688,0.9703403925047123,0.2335882345090817
+6a1f56befe65e61d,CORADO,train,True,microsam,micro-sam,18.2484,19.5996,1.3511999999999986,0.9642993024730501,0.9310598175472968,1.0,0.9310598175472968
+6a1f56befe65e61d,CORADO,train,True,cellpose_sam,Cellpose-SAM,0.0,19.5996,19.5996,0.0,0.0,0.0,0.0
+6a1f56befe65e61d,CORADO,train,True,curvelet_fire,Curvelet + FIRE/CT-FIRE,21.1284,19.5996,1.5288000000000004,0.5680809271263013,0.39672697842220056,0.5475284451259915,0.5902365354394987
+6a1f56befe65e61d,CORADO,train,True,sato_otsu,Sato + Otsu + Morfologia,4.8196,19.5996,14.779999999999998,0.37229720875376754,0.22872554544722648,0.943148809029795,0.2319231004714382
+7ccf1325bf56036a,CORADO,train,True,microsam,micro-sam,21.1024,21.3352,0.232800000000001,0.994514298640828,0.9890884547602085,1.0,0.9890884547602085
+7ccf1325bf56036a,CORADO,train,True,cellpose_sam,Cellpose-SAM,0.0536,21.3352,21.2816,0.0,0.0,0.0,0.0
+7ccf1325bf56036a,CORADO,train,True,curvelet_fire,Curvelet + FIRE/CT-FIRE,15.716,21.3352,5.619200000000001,0.5642570281124498,0.393006993006993,0.6651310766098244,0.4899508792980614
+7ccf1325bf56036a,CORADO,train,True,sato_otsu,Sato + Otsu + Morfologia,6.343999999999999,21.3352,14.991200000000001,0.4345501315066909,0.2775880213429832,0.9479823455233292,0.2818815853612809
+bd1cf04a23e2d0b8,CORADO,train,True,microsam,micro-sam,13.5076,13.494800000000001,0.01279999999999859,0.9815720084140669,0.963810909090909,0.9811069323936155,0.982037525565403
+bd1cf04a23e2d0b8,CORADO,train,True,cellpose_sam,Cellpose-SAM,0.0,13.494800000000001,13.494800000000001,0.0,0.0,0.0,0.0
+bd1cf04a23e2d0b8,CORADO,train,True,curvelet_fire,Curvelet + FIRE/CT-FIRE,22.7132,13.494800000000001,9.218399999999999,0.4902562969509501,0.32472816144941535,0.3907683637708469,0.657705190147316
+bd1cf04a23e2d0b8,CORADO,train,True,sato_otsu,Sato + Otsu + Morfologia,6.5124,13.494800000000001,6.982400000000001,0.5316486065016593,0.362071782582648,0.8166574534733738,0.39410735987195067
+cfdff75278c61a2b,CORADO,train,False,microsam,micro-sam,21.7672,,,,,,
+cfdff75278c61a2b,CORADO,train,False,cellpose_sam,Cellpose-SAM,0.0,,,,,,
+cfdff75278c61a2b,CORADO,train,False,curvelet_fire,Curvelet + FIRE/CT-FIRE,25.363599999999998,,,,,,
+cfdff75278c61a2b,CORADO,train,False,sato_otsu,Sato + Otsu + Morfologia,7.853599999999999,,,,,,
+d214c65835e77755,CORADO,train,False,microsam,micro-sam,6.728000000000001,,,,,,
+d214c65835e77755,CORADO,train,False,cellpose_sam,Cellpose-SAM,0.0,,,,,,
+d214c65835e77755,CORADO,train,False,curvelet_fire,Curvelet + FIRE/CT-FIRE,14.189599999999999,,,,,,
+d214c65835e77755,CORADO,train,False,sato_otsu,Sato + Otsu + Morfologia,3.1843999999999997,,,,,,
+0fb1a7eb71fa6e29,SEM CORAR,test,False,microsam,micro-sam,3.8584,,,,,,
+0fb1a7eb71fa6e29,SEM CORAR,test,False,cellpose_sam,Cellpose-SAM,0.0,,,,,,
+0fb1a7eb71fa6e29,SEM CORAR,test,False,curvelet_fire,Curvelet + FIRE/CT-FIRE,3.0707999999999998,,,,,,
+0fb1a7eb71fa6e29,SEM CORAR,test,False,sato_otsu,Sato + Otsu + Morfologia,1.5312,,,,,,
+10be106ab4401a21,SEM CORAR,train,False,microsam,micro-sam,25.835599999999996,,,,,,
+10be106ab4401a21,SEM CORAR,train,False,cellpose_sam,Cellpose-SAM,1.2472,,,,,,
+10be106ab4401a21,SEM CORAR,train,False,curvelet_fire,Curvelet + FIRE/CT-FIRE,33.923199999999994,,,,,,
+10be106ab4401a21,SEM CORAR,train,False,sato_otsu,Sato + Otsu + Morfologia,8.235199999999999,,,,,,
+10f771e1b74f940c,SEM CORAR,train,False,microsam,micro-sam,34.876000000000005,,,,,,
+10f771e1b74f940c,SEM CORAR,train,False,cellpose_sam,Cellpose-SAM,8.3036,,,,,,
+10f771e1b74f940c,SEM CORAR,train,False,curvelet_fire,Curvelet + FIRE/CT-FIRE,29.2284,,,,,,
+10f771e1b74f940c,SEM CORAR,train,False,sato_otsu,Sato + Otsu + Morfologia,8.8604,,,,,,
+136c85242db97ffc,SEM CORAR,train,False,microsam,micro-sam,12.2804,,,,,,
+136c85242db97ffc,SEM CORAR,train,False,cellpose_sam,Cellpose-SAM,0.0,,,,,,
+136c85242db97ffc,SEM CORAR,train,False,curvelet_fire,Curvelet + FIRE/CT-FIRE,18.7684,,,,,,
+136c85242db97ffc,SEM CORAR,train,False,sato_otsu,Sato + Otsu + Morfologia,5.0224,,,,,,
+2437e536b88e5c52,SEM CORAR,train,False,microsam,micro-sam,6.3675999999999995,,,,,,
+2437e536b88e5c52,SEM CORAR,train,False,cellpose_sam,Cellpose-SAM,1.1812,,,,,,
+2437e536b88e5c52,SEM CORAR,train,False,curvelet_fire,Curvelet + FIRE/CT-FIRE,14.4896,,,,,,
+2437e536b88e5c52,SEM CORAR,train,False,sato_otsu,Sato + Otsu + Morfologia,4.3084,,,,,,
+2643fcdc5bc2be29,SEM CORAR,train,False,microsam,micro-sam,12.207600000000001,,,,,,
+2643fcdc5bc2be29,SEM CORAR,train,False,cellpose_sam,Cellpose-SAM,0.0,,,,,,
+2643fcdc5bc2be29,SEM CORAR,train,False,curvelet_fire,Curvelet + FIRE/CT-FIRE,17.285600000000002,,,,,,
+2643fcdc5bc2be29,SEM CORAR,train,False,sato_otsu,Sato + Otsu + Morfologia,5.124,,,,,,
+29c4a9c9ad95d355,SEM CORAR,train,True,microsam,micro-sam,13.5764,17.7564,4.18,0.8665934739314711,0.7645919217859476,1.0,0.7645919217859476
+29c4a9c9ad95d355,SEM CORAR,train,True,cellpose_sam,Cellpose-SAM,0.2308,17.7564,17.5256,0.015255292652552927,0.007686274509803921,0.5944540727902946,0.007726791466738754
+29c4a9c9ad95d355,SEM CORAR,train,True,curvelet_fire,Curvelet + FIRE/CT-FIRE,16.944,17.7564,0.8124000000000002,0.6064483406531337,0.4351818151738742,0.6209867799811143,0.592575071523507
+29c4a9c9ad95d355,SEM CORAR,train,True,sato_otsu,Sato + Otsu + Morfologia,5.302,17.7564,12.4544,0.4447836797002394,0.2859947351983224,0.967182195397963,0.28879727872767
+42a5bd1a01261864,SEM CORAR,test,True,microsam,micro-sam,17.1988,17.8228,0.6240000000000023,0.9684309112090824,0.9387940388405412,0.9859990231876643,0.9514778822631685
+42a5bd1a01261864,SEM CORAR,test,True,cellpose_sam,Cellpose-SAM,0.0,17.8228,17.8228,0.0,0.0,0.0,0.0
+42a5bd1a01261864,SEM CORAR,test,True,curvelet_fire,Curvelet + FIRE/CT-FIRE,24.662799999999997,17.8228,6.839999999999996,0.5947238593782364,0.4232078252713386,0.5122532721345509,0.7088448504163206
+42a5bd1a01261864,SEM CORAR,test,True,sato_otsu,Sato + Otsu + Morfologia,5.8612,17.8228,11.9616,0.4778922479310927,0.31396742266211,0.9655360676994472,0.3175258657450008
+4dc7631afda05229,SEM CORAR,test,False,microsam,micro-sam,28.638,,,,,,
+4dc7631afda05229,SEM CORAR,test,False,cellpose_sam,Cellpose-SAM,4.3852,,,,,,
+4dc7631afda05229,SEM CORAR,test,False,curvelet_fire,Curvelet + FIRE/CT-FIRE,28.233200000000004,,,,,,
+4dc7631afda05229,SEM CORAR,test,False,sato_otsu,Sato + Otsu + Morfologia,8.018,,,,,,
+6c2283872fea8f20,SEM CORAR,train,False,microsam,micro-sam,34.5124,,,,,,
+6c2283872fea8f20,SEM CORAR,train,False,cellpose_sam,Cellpose-SAM,6.986000000000001,,,,,,
+6c2283872fea8f20,SEM CORAR,train,False,curvelet_fire,Curvelet + FIRE/CT-FIRE,28.677599999999998,,,,,,
+6c2283872fea8f20,SEM CORAR,train,False,sato_otsu,Sato + Otsu + Morfologia,8.4052,,,,,,
+6c3bc98719556258,SEM CORAR,test,False,microsam,micro-sam,24.826,,,,,,
+6c3bc98719556258,SEM CORAR,test,False,cellpose_sam,Cellpose-SAM,0.34199999999999997,,,,,,
+6c3bc98719556258,SEM CORAR,test,False,curvelet_fire,Curvelet + FIRE/CT-FIRE,28.554800000000004,,,,,,
+6c3bc98719556258,SEM CORAR,test,False,sato_otsu,Sato + Otsu + Morfologia,8.2324,,,,,,
+79483a72c07ca620,SEM CORAR,train,False,microsam,micro-sam,30.7104,,,,,,
+79483a72c07ca620,SEM CORAR,train,False,cellpose_sam,Cellpose-SAM,9.903599999999999,,,,,,
+79483a72c07ca620,SEM CORAR,train,False,curvelet_fire,Curvelet + FIRE/CT-FIRE,28.2568,,,,,,
+79483a72c07ca620,SEM CORAR,train,False,sato_otsu,Sato + Otsu + Morfologia,7.3188,,,,,,
+861d00d9a4c98bb7,SEM CORAR,test,False,microsam,micro-sam,31.718000000000004,,,,,,
+861d00d9a4c98bb7,SEM CORAR,test,False,cellpose_sam,Cellpose-SAM,0.5672,,,,,,
+861d00d9a4c98bb7,SEM CORAR,test,False,curvelet_fire,Curvelet + FIRE/CT-FIRE,37.5256,,,,,,
+861d00d9a4c98bb7,SEM CORAR,test,False,sato_otsu,Sato + Otsu + Morfologia,9.7052,,,,,,
+86a5aeec895ec0b2,SEM CORAR,train,True,microsam,micro-sam,13.2688,13.4424,0.17359999999999864,0.9563928239839468,0.9164299038599513,0.9626492222356204,0.95021722311492
+86a5aeec895ec0b2,SEM CORAR,train,True,cellpose_sam,Cellpose-SAM,0.5932,13.4424,12.8492,0.04645330445438742,0.023778957810585283,0.5495616992582603,0.024251621734214128
+86a5aeec895ec0b2,SEM CORAR,train,True,curvelet_fire,Curvelet + FIRE/CT-FIRE,18.3224,13.4424,4.879999999999999,0.587241222988969,0.41566984579730815,0.5090381172772126,0.6938344343272035
+86a5aeec895ec0b2,SEM CORAR,train,True,sato_otsu,Sato + Otsu + Morfologia,4.4704,13.4424,8.972,0.479567683444241,0.31541534484784395,0.9608088761632069,0.319526275069928
+a26bc9e192e24d51,SEM CORAR,train,False,microsam,micro-sam,18.1692,,,,,,
+a26bc9e192e24d51,SEM CORAR,train,False,cellpose_sam,Cellpose-SAM,0.1596,,,,,,
+a26bc9e192e24d51,SEM CORAR,train,False,curvelet_fire,Curvelet + FIRE/CT-FIRE,20.1928,,,,,,
+a26bc9e192e24d51,SEM CORAR,train,False,sato_otsu,Sato + Otsu + Morfologia,5.406,,,,,,
+d5c2acbb36fe83f7,SEM CORAR,test,False,microsam,micro-sam,24.0076,,,,,,
+d5c2acbb36fe83f7,SEM CORAR,test,False,cellpose_sam,Cellpose-SAM,7.0288,,,,,,
+d5c2acbb36fe83f7,SEM CORAR,test,False,curvelet_fire,Curvelet + FIRE/CT-FIRE,25.66,,,,,,
+d5c2acbb36fe83f7,SEM CORAR,test,False,sato_otsu,Sato + Otsu + Morfologia,6.644799999999999,,,,,,
+d7f73ebdab9ae12b,SEM CORAR,train,False,microsam,micro-sam,24.4508,,,,,,
+d7f73ebdab9ae12b,SEM CORAR,train,False,cellpose_sam,Cellpose-SAM,2.3484000000000003,,,,,,
+d7f73ebdab9ae12b,SEM CORAR,train,False,curvelet_fire,Curvelet + FIRE/CT-FIRE,38.129999999999995,,,,,,
+d7f73ebdab9ae12b,SEM CORAR,train,False,sato_otsu,Sato + Otsu + Morfologia,9.498800000000001,,,,,,
+e2b84dbafa4f0f58,SEM CORAR,test,True,microsam,micro-sam,18.3748,18.763199999999998,0.3883999999999972,0.9895417093004469,0.979299906199369,1.0,0.979299906199369
+e2b84dbafa4f0f58,SEM CORAR,test,True,cellpose_sam,Cellpose-SAM,0.0,18.763199999999998,18.763199999999998,0.0,0.0,0.0,0.0
+e2b84dbafa4f0f58,SEM CORAR,test,True,curvelet_fire,Curvelet + FIRE/CT-FIRE,29.9072,18.763199999999998,11.144000000000002,0.5612939281370196,0.390138012978704,0.45671945217205223,0.727978170034962
+e2b84dbafa4f0f58,SEM CORAR,test,True,sato_otsu,Sato + Otsu + Morfologia,7.395599999999999,18.763199999999998,11.3676,0.5342446901234001,0.3644842263395093,0.9448320623073179,0.3724098234842671
+ee3684a6fa66917a,SEM CORAR,train,True,microsam,micro-sam,22.2272,22.1436,0.08360000000000056,0.9932478116238608,0.9865861957806512,0.9913799308954794,0.9951227442692245
+ee3684a6fa66917a,SEM CORAR,train,True,cellpose_sam,Cellpose-SAM,2.8564,22.1436,19.2872,0.163968,0.08930563301728946,0.7175465621061476,0.09255947542405028
+ee3684a6fa66917a,SEM CORAR,train,True,curvelet_fire,Curvelet + FIRE/CT-FIRE,21.5624,22.1436,0.581199999999999,0.5904543998535671,0.4188969833911203,0.5984120506066115,0.5827056124568725
+ee3684a6fa66917a,SEM CORAR,train,True,sato_otsu,Sato + Otsu + Morfologia,5.8768,22.1436,16.2668,0.3960828539207149,0.2469472035316316,0.9442553770759597,0.25060062501128993

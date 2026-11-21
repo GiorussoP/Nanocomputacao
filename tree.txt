@@ -1,0 +1,1081 @@
+.
+├── annotations
+│   └── BOCA
+│       ├── SHG
+│       │   ├── 29c4a9c9ad95d355.tif
+│       │   ├── 42a5bd1a01261864.tif
+│       │   ├── 576059c79f2a0263.tif
+│       │   ├── 6a1f56befe65e61d.tif
+│       │   ├── 7ccf1325bf56036a.tif
+│       │   ├── 81f8ce1abde95e29.tif
+│       │   ├── 86a5aeec895ec0b2.tif
+│       │   ├── b70c6661d02397d4.tif
+│       │   ├── bd1cf04a23e2d0b8.tif
+│       │   ├── ce6252a521c21eff.tif
+│       │   ├── e2b84dbafa4f0f58.tif
+│       │   └── ee3684a6fa66917a.tif
+│       └── TPEF
+│           ├── 092f05ab76238eff.tif
+│           ├── 092f05ab76238eff_unaligned_backup.tif
+│           ├── 103c3c81b9c95e67.tif
+│           ├── 103c3c81b9c95e67_unaligned_backup.tif
+│           ├── 22a1976ba9739e37.tif
+│           ├── 22a1976ba9739e37_unaligned_backup.tif
+│           ├── 4a840aa9565c4d88.tif
+│           ├── 4a840aa9565c4d88_unaligned_backup.tif
+│           ├── 573aecf35b5546c6.tif
+│           ├── 573aecf35b5546c6_unaligned_backup.tif
+│           ├── 69f019e379a6e327.tif
+│           ├── 69f019e379a6e327_unaligned_backup.tif
+│           ├── 98777e4676daa66b.tif
+│           ├── 98777e4676daa66b_unaligned_backup.tif
+│           ├── 9b4b0f4a3c616a54.tif
+│           ├── 9b4b0f4a3c616a54_unaligned_backup.tif
+│           ├── b23be0dad5e1bfee.tif
+│           ├── b23be0dad5e1bfee_unaligned_backup.tif
+│           ├── b7fea071549018fa.tif
+│           ├── b7fea071549018fa_unaligned_backup.tif
+│           ├── ed7188f85d4d4b39.tif
+│           ├── ed7188f85d4d4b39_unaligned_backup.tif
+│           ├── eece3a0096be3602.tif
+│           └── eece3a0096be3602_unaligned_backup.tif
+├── atividade_1.py
+├── foundation_microscopy
+│   ├── cli.py
+│   ├── clustering.py
+│   ├── embeddings.py
+│   ├── fusion.py
+│   ├── imaging.py
+│   ├── __init__.py
+│   ├── inventory.py
+│   ├── __pycache__
+│   │   ├── cli.cpython-311.pyc
+│   │   ├── cli.cpython-312.pyc
+│   │   ├── cli.cpython-313.pyc
+│   │   ├── cli.cpython-315.pyc
+│   │   ├── clustering.cpython-311.pyc
+│   │   ├── clustering.cpython-312.pyc
+│   │   ├── clustering.cpython-313.pyc
+│   │   ├── clustering.cpython-315.pyc
+│   │   ├── embeddings.cpython-311.pyc
+│   │   ├── embeddings.cpython-312.pyc
+│   │   ├── embeddings.cpython-313.pyc
+│   │   ├── embeddings.cpython-315.pyc
+│   │   ├── fusion.cpython-311.pyc
+│   │   ├── fusion.cpython-312.pyc
+│   │   ├── fusion.cpython-313.pyc
+│   │   ├── imaging.cpython-311.pyc
+│   │   ├── imaging.cpython-312.pyc
+│   │   ├── imaging.cpython-313.pyc
+│   │   ├── imaging.cpython-315.pyc
+│   │   ├── __init__.cpython-311.pyc
+│   │   ├── __init__.cpython-312.pyc
+│   │   ├── __init__.cpython-313.pyc
+│   │   ├── __init__.cpython-315.pyc
+│   │   ├── inventory.cpython-311.pyc
+│   │   ├── inventory.cpython-312.pyc
+│   │   ├── inventory.cpython-313.pyc
+│   │   ├── segmentation.cpython-311.pyc
+│   │   ├── segmentation.cpython-312.pyc
+│   │   └── segmentation.cpython-313.pyc
+│   └── segmentation.py
+├── FOUNDATION_MICROSCOPY.md
+├── metadata
+│   ├── confirmacao_detectores.json
+│   ├── foundation_images.csv
+│   ├── manifesto_pareamento_boca.csv
+│   ├── split_boca_campos.csv
+│   └── split_boca.csv
+├── models
+│   ├── microsam_bridge_1.py
+│   ├── microsam_bridge.py
+│   └── __pycache__
+│       └── microsam_bridge.cpython-312.pyc
+├── processed
+│   └── foundation_microscopy
+│       ├── clusters_por_modalidade.csv
+│       ├── clusters_srs_cars.csv
+│       ├── embeddings.npz
+│       ├── embeddings.npz.old
+│       ├── fused_segmentations
+│       │   └── BOCA
+│       │       └── SRS+CARS
+│       │           ├── exact_05818bd0bd7329d7.tif
+│       │           ├── exact_1781fc7caab35b00.tif
+│       │           ├── exact_1e30847516a3730d.tif
+│       │           ├── exact_228a1df19e1a4665.tif
+│       │           ├── exact_2c8807b7f9121f12.tif
+│       │           ├── exact_32917ceb4c83db3f.tif
+│       │           ├── exact_386c699bcf039040.tif
+│       │           ├── exact_3a6be4a8b655f9c2.tif
+│       │           ├── exact_4c297205378f950a.tif
+│       │           ├── exact_53d0aa3a19ba1d70.tif
+│       │           ├── exact_569c05c65db5efb6.tif
+│       │           ├── exact_5ef72a937f118ef6.tif
+│       │           ├── exact_5f76e9de156d1e1f.tif
+│       │           ├── exact_60087ff0c01d2cf6.tif
+│       │           ├── exact_6598984adde58299.tif
+│       │           ├── exact_6614b2f252389a93.tif
+│       │           ├── exact_6838075c5ab6165c.tif
+│       │           ├── exact_69f4234d455ebfcf.tif
+│       │           ├── exact_6c659ec8c72e7fcd.tif
+│       │           ├── exact_7483f7609fe00359.tif
+│       │           ├── exact_75b1c45b20aaccc5.tif
+│       │           ├── exact_7a4035803859864e.tif
+│       │           ├── exact_8b46d666924528d0.tif
+│       │           ├── exact_8d87f76a8fcc51c3.tif
+│       │           ├── exact_922f94db4123f701.tif
+│       │           ├── exact_96836c45d55db7e5.tif
+│       │           ├── exact_9c1327bfa27bf352.tif
+│       │           ├── exact_9c72311d0b7b8c49.tif
+│       │           ├── exact_a219fa2daa7fc0b6.tif
+│       │           ├── exact_a9f23e2dc9cd69ef.tif
+│       │           ├── exact_b771db57cc6753fb.tif
+│       │           ├── exact_c45240d6e63b7109.tif
+│       │           ├── exact_c5739e2c221ac5b3.tif
+│       │           ├── exact_c68f86d27844d920.tif
+│       │           ├── exact_d17b3cd9607955e2.tif
+│       │           ├── exact_d48f8dc669ffe0e2.tif
+│       │           ├── exact_d602241f2ec599d4.tif
+│       │           ├── exact_dca9c3396e7914dc.tif
+│       │           ├── exact_dd4f44c7efd9ef9c.tif
+│       │           ├── exact_e0005c7b2d574118.tif
+│       │           ├── exact_e0053e4784272f71.tif
+│       │           ├── exact_e43b3a776427b002.tif
+│       │           ├── exact_eac51e1a4ddfd82e.tif
+│       │           ├── exact_ee7a115b94797968.tif
+│       │           ├── exact_f276fc16a4eb5e39.tif
+│       │           ├── exact_f5d7732c8a946e5c.tif
+│       │           ├── exact_f8d4a8567534df99.tif
+│       │           └── exact_fc25ef3784848eb2.tif
+│       ├── registered
+│       │   └── BOCA
+│       │       ├── candidate_0899c610911e0076
+│       │       │   ├── bd1cf04a23e2d0b8_SHG_mask_ref.tif
+│       │       │   ├── bd1cf04a23e2d0b8_SHG_ref.tif
+│       │       │   ├── ed7188f85d4d4b39_TPEF_mask_reg.tif
+│       │       │   ├── ed7188f85d4d4b39_TPEF_reg.tif
+│       │       │   ├── overlay_antes_depois.png
+│       │       │   └── valid_fov_mask.tif
+│       │       ├── candidate_092c341f615b50af
+│       │       │   ├── 7ccf1325bf56036a_SHG_mask_ref.tif
+│       │       │   ├── 7ccf1325bf56036a_SHG_ref.tif
+│       │       │   ├── 9b4b0f4a3c616a54_TPEF_mask_reg.tif
+│       │       │   ├── 9b4b0f4a3c616a54_TPEF_reg.tif
+│       │       │   ├── overlay_antes_depois.png
+│       │       │   └── valid_fov_mask.tif
+│       │       ├── candidate_0e0f7b9f0cda6cfc
+│       │       │   ├── 81f8ce1abde95e29_SHG_mask_ref.tif
+│       │       │   ├── 81f8ce1abde95e29_SHG_ref.tif
+│       │       │   ├── b23be0dad5e1bfee_TPEF_mask_reg.tif
+│       │       │   ├── b23be0dad5e1bfee_TPEF_reg.tif
+│       │       │   ├── overlay_antes_depois.png
+│       │       │   └── valid_fov_mask.tif
+│       │       ├── candidate_144f9d47a0297dc5
+│       │       │   ├── 573aecf35b5546c6_TPEF_mask_reg.tif
+│       │       │   ├── 573aecf35b5546c6_TPEF_reg.tif
+│       │       │   ├── 86a5aeec895ec0b2_SHG_mask_ref.tif
+│       │       │   ├── 86a5aeec895ec0b2_SHG_ref.tif
+│       │       │   ├── overlay_antes_depois.png
+│       │       │   └── valid_fov_mask.tif
+│       │       ├── candidate_25949ba729246b9c
+│       │       │   ├── b7fea071549018fa_TPEF_mask_reg.tif
+│       │       │   ├── b7fea071549018fa_TPEF_reg.tif
+│       │       │   ├── e2b84dbafa4f0f58_SHG_mask_ref.tif
+│       │       │   ├── e2b84dbafa4f0f58_SHG_ref.tif
+│       │       │   ├── overlay_antes_depois.png
+│       │       │   └── valid_fov_mask.tif
+│       │       ├── candidate_2787068c6be2f325
+│       │       │   ├── 22a1976ba9739e37_TPEF_mask_reg.tif
+│       │       │   ├── 22a1976ba9739e37_TPEF_reg.tif
+│       │       │   ├── ce6252a521c21eff_SHG_mask_ref.tif
+│       │       │   ├── ce6252a521c21eff_SHG_ref.tif
+│       │       │   ├── overlay_antes_depois.png
+│       │       │   └── valid_fov_mask.tif
+│       │       ├── candidate_333f9ed4cdb0126d
+│       │       │   ├── 4a840aa9565c4d88_TPEF_mask_reg.tif
+│       │       │   ├── 4a840aa9565c4d88_TPEF_reg.tif
+│       │       │   ├── 6a1f56befe65e61d_SHG_mask_ref.tif
+│       │       │   ├── 6a1f56befe65e61d_SHG_ref.tif
+│       │       │   ├── overlay_antes_depois.png
+│       │       │   └── valid_fov_mask.tif
+│       │       ├── candidate_3500b8d2df0693dd
+│       │       │   ├── 98777e4676daa66b_TPEF_mask_reg.tif
+│       │       │   ├── 98777e4676daa66b_TPEF_reg.tif
+│       │       │   ├── b70c6661d02397d4_SHG_mask_ref.tif
+│       │       │   ├── b70c6661d02397d4_SHG_ref.tif
+│       │       │   ├── overlay_antes_depois.png
+│       │       │   └── valid_fov_mask.tif
+│       │       ├── candidate_3fc88db25454327c
+│       │       │   ├── ee3684a6fa66917a_SHG_mask_ref.tif
+│       │       │   ├── ee3684a6fa66917a_SHG_ref.tif
+│       │       │   ├── eece3a0096be3602_TPEF_mask_reg.tif
+│       │       │   ├── eece3a0096be3602_TPEF_reg.tif
+│       │       │   ├── overlay_antes_depois.png
+│       │       │   └── valid_fov_mask.tif
+│       │       ├── candidate_45b995f51c1da30f
+│       │       │   ├── 29c4a9c9ad95d355_SHG_mask_ref.tif
+│       │       │   ├── 29c4a9c9ad95d355_SHG_ref.tif
+│       │       │   ├── 69f019e379a6e327_TPEF_mask_reg.tif
+│       │       │   ├── 69f019e379a6e327_TPEF_reg.tif
+│       │       │   ├── overlay_antes_depois.png
+│       │       │   └── valid_fov_mask.tif
+│       │       ├── candidate_47cba6f114bbe2f1
+│       │       │   ├── 103c3c81b9c95e67_TPEF_mask_reg.tif
+│       │       │   ├── 103c3c81b9c95e67_TPEF_reg.tif
+│       │       │   ├── 42a5bd1a01261864_SHG_mask_ref.tif
+│       │       │   ├── 42a5bd1a01261864_SHG_ref.tif
+│       │       │   ├── overlay_antes_depois.png
+│       │       │   └── valid_fov_mask.tif
+│       │       ├── candidate_4fb1f4b92f78408c
+│       │       │   ├── 092f05ab76238eff_TPEF_mask_reg.tif
+│       │       │   ├── 092f05ab76238eff_TPEF_reg.tif
+│       │       │   ├── 576059c79f2a0263_SHG_mask_ref.tif
+│       │       │   ├── 576059c79f2a0263_SHG_ref.tif
+│       │       │   ├── overlay_antes_depois.png
+│       │       │   └── valid_fov_mask.tif
+│       │       ├── candidate_519f1610646a4cf9
+│       │       │   ├── 0eddc161402fcfca_SHG_ref.tif
+│       │       │   ├── 14fed4059a29fa77_TPEF_reg.tif
+│       │       │   ├── overlay_antes_depois.png
+│       │       │   └── valid_fov_mask.tif
+│       │       ├── candidate_52be155d5d0965ba
+│       │       │   ├── 155466904d00dcc9_TPEF_reg.tif
+│       │       │   ├── 6c3bc98719556258_SHG_ref.tif
+│       │       │   ├── overlay_antes_depois.png
+│       │       │   └── valid_fov_mask.tif
+│       │       ├── candidate_793372d3d10dfade
+│       │       │   ├── 400f9526b9db4fed_TPEF_reg.tif
+│       │       │   ├── 77547fcc706d3359_SHG_ref.tif
+│       │       │   ├── overlay_antes_depois.png
+│       │       │   └── valid_fov_mask.tif
+│       │       ├── candidate_88bbc1d461e039b0
+│       │       │   ├── 136c85242db97ffc_SHG_ref.tif
+│       │       │   ├── 78f950f0e84d979d_TPEF_reg.tif
+│       │       │   ├── overlay_antes_depois.png
+│       │       │   └── valid_fov_mask.tif
+│       │       ├── candidate_89d23c0a7443a510
+│       │       │   ├── a58c7706622e3d32_TPEF_reg.tif
+│       │       │   ├── c2bb9f6af3156869_SHG_ref.tif
+│       │       │   ├── overlay_antes_depois.png
+│       │       │   └── valid_fov_mask.tif
+│       │       ├── candidate_92880a4db6377597
+│       │       │   ├── 72be48faf08633c7_TPEF_reg.tif
+│       │       │   ├── d214c65835e77755_SHG_ref.tif
+│       │       │   ├── overlay_antes_depois.png
+│       │       │   └── valid_fov_mask.tif
+│       │       ├── candidate_a0bfa7eea53849a2
+│       │       │   ├── 1fc652324e8ae38b_SHG_ref.tif
+│       │       │   ├── 4e9811a1cc3514c7_TPEF_reg.tif
+│       │       │   ├── overlay_antes_depois.png
+│       │       │   └── valid_fov_mask.tif
+│       │       ├── candidate_a3c4d0cf33226853
+│       │       │   ├── 0fb1a7eb71fa6e29_SHG_ref.tif
+│       │       │   ├── ba637cd19b331b1c_TPEF_reg.tif
+│       │       │   ├── overlay_antes_depois.png
+│       │       │   └── valid_fov_mask.tif
+│       │       ├── candidate_a8781f9a84482a5d
+│       │       │   ├── 95ab88dbac3ea255_TPEF_reg.tif
+│       │       │   ├── c1c6c9e1d2f3876c_SHG_ref.tif
+│       │       │   ├── overlay_antes_depois.png
+│       │       │   └── valid_fov_mask.tif
+│       │       ├── candidate_b53e534fff539878
+│       │       │   ├── a26bc9e192e24d51_SHG_ref.tif
+│       │       │   ├── bf222a7721986877_TPEF_reg.tif
+│       │       │   ├── overlay_antes_depois.png
+│       │       │   └── valid_fov_mask.tif
+│       │       ├── candidate_c1437453fb7a2e7e
+│       │       │   ├── 1858938a572c7b77_SHG_ref.tif
+│       │       │   ├── 6c4d3e4c5b6fb9fe_TPEF_reg.tif
+│       │       │   ├── overlay_antes_depois.png
+│       │       │   └── valid_fov_mask.tif
+│       │       ├── candidate_cb387933b36932bd
+│       │       │   ├── 2437e536b88e5c52_SHG_ref.tif
+│       │       │   ├── 2a8836d2cd46da2e_TPEF_reg.tif
+│       │       │   ├── overlay_antes_depois.png
+│       │       │   └── valid_fov_mask.tif
+│       │       ├── candidate_d537548728604ee1
+│       │       │   ├── c7785d850ca7c1de_TPEF_reg.tif
+│       │       │   ├── cfdff75278c61a2b_SHG_ref.tif
+│       │       │   ├── overlay_antes_depois.png
+│       │       │   └── valid_fov_mask.tif
+│       │       └── candidate_d95efe45753ed086
+│       │           ├── 2efb5430abd1530a_TPEF_reg.tif
+│       │           ├── c57e5feb10cb8cdf_SHG_ref.tif
+│       │           ├── overlay_antes_depois.png
+│       │           └── valid_fov_mask.tif
+│       ├── segmentations
+│       │   └── BOCA
+│       │       ├── CARS
+│       │       │   ├── 06583f1dc068a62a.tif
+│       │       │   ├── 177de0a2eb2cc34c.tif
+│       │       │   ├── 1ec06bca8c59aff6.tif
+│       │       │   ├── 22373d6ce3f42379.tif
+│       │       │   ├── 239b04fc16696668.tif
+│       │       │   ├── 28b91a4c4833a822.tif
+│       │       │   ├── 365e0de5980e6bd6.tif
+│       │       │   ├── 3a33e55e325ecb71.tif
+│       │       │   ├── 3bed56eef3dd3b47.tif
+│       │       │   ├── 4aa98f87629d9dd7.tif
+│       │       │   ├── 5adf14244f5c2f15.tif
+│       │       │   ├── 5e918d2a5c231c7e.tif
+│       │       │   ├── 60a2e217f97dc71a.tif
+│       │       │   ├── 61a38cb110fe2743.tif
+│       │       │   ├── 6a7b8896169d6e14.tif
+│       │       │   ├── 75f48509fc9f85f9.tif
+│       │       │   ├── 777ef7856203115c.tif
+│       │       │   ├── 7cdb884d5f9f5191.tif
+│       │       │   ├── 7e136fdf718d7b65.tif
+│       │       │   ├── 8620ff87646905eb.tif
+│       │       │   ├── 8762d13eb9e28612.tif
+│       │       │   ├── 906dc6eb6172cb89.tif
+│       │       │   ├── 9071f4bbbfcd020d.tif
+│       │       │   ├── 907f6ed2ec4eba0a.tif
+│       │       │   ├── 91d41526f4849783.tif
+│       │       │   ├── 98dbc8af07fef099.tif
+│       │       │   ├── 9aa51b13d69da2f5.tif
+│       │       │   ├── 9ce8c6c5b966c473.tif
+│       │       │   ├── 9d04d5bdc697395c.tif
+│       │       │   ├── a05894fd29395071.tif
+│       │       │   ├── ad698a10fe19c262.tif
+│       │       │   ├── b40cc35098ec95cd.tif
+│       │       │   ├── b4dff55ec4ba7157.tif
+│       │       │   ├── b614fdd848fb575d.tif
+│       │       │   ├── c00663c6aeb1bcd9.tif
+│       │       │   ├── c0d802e048ad6a62.tif
+│       │       │   ├── cad18562102611c3.tif
+│       │       │   ├── ce294727de4570a5.tif
+│       │       │   ├── d62886ecbf2a31ad.tif
+│       │       │   ├── da0dd69edc01e682.tif
+│       │       │   ├── df32228f51105fda.tif
+│       │       │   ├── e65b977ed5848498.tif
+│       │       │   ├── e97dec437462f0c3.tif
+│       │       │   ├── eab33591a5595d50.tif
+│       │       │   ├── f2fb5d0dccdeb875.tif
+│       │       │   ├── f4382035913b8911.tif
+│       │       │   ├── f575b2d354e7dd56.tif
+│       │       │   └── f6a91350bfe7a156.tif
+│       │       ├── SHG
+│       │       │   ├── 0eddc161402fcfca.tif
+│       │       │   ├── 0fb1a7eb71fa6e29.tif
+│       │       │   ├── 10be106ab4401a21.tif
+│       │       │   ├── 10f771e1b74f940c.tif
+│       │       │   ├── 136c85242db97ffc.tif
+│       │       │   ├── 1858938a572c7b77.tif
+│       │       │   ├── 1fc652324e8ae38b.tif
+│       │       │   ├── 2437e536b88e5c52.tif
+│       │       │   ├── 2643fcdc5bc2be29.tif
+│       │       │   ├── 29c4a9c9ad95d355.tif
+│       │       │   ├── 42a5bd1a01261864.tif
+│       │       │   ├── 4dc7631afda05229.tif
+│       │       │   ├── 576059c79f2a0263.tif
+│       │       │   ├── 6a1f56befe65e61d.tif
+│       │       │   ├── 6c2283872fea8f20.tif
+│       │       │   ├── 6c3bc98719556258.tif
+│       │       │   ├── 77547fcc706d3359.tif
+│       │       │   ├── 79483a72c07ca620.tif
+│       │       │   ├── 7ccf1325bf56036a.tif
+│       │       │   ├── 81f8ce1abde95e29.tif
+│       │       │   ├── 861d00d9a4c98bb7.tif
+│       │       │   ├── 86a5aeec895ec0b2.tif
+│       │       │   ├── a26bc9e192e24d51.tif
+│       │       │   ├── b70c6661d02397d4.tif
+│       │       │   ├── bd1cf04a23e2d0b8.tif
+│       │       │   ├── c1c6c9e1d2f3876c.tif
+│       │       │   ├── c2bb9f6af3156869.tif
+│       │       │   ├── c57e5feb10cb8cdf.tif
+│       │       │   ├── ce6252a521c21eff.tif
+│       │       │   ├── cfdff75278c61a2b.tif
+│       │       │   ├── d214c65835e77755.tif
+│       │       │   ├── d5c2acbb36fe83f7.tif
+│       │       │   ├── d7f73ebdab9ae12b.tif
+│       │       │   ├── e2b84dbafa4f0f58.tif
+│       │       │   └── ee3684a6fa66917a.tif
+│       │       ├── SRS
+│       │       │   ├── 0010943bda9ad1fc.tif
+│       │       │   ├── 023803683e1fc917.tif
+│       │       │   ├── 03c9aaa960cd8f22.tif
+│       │       │   ├── 0716f5965e4eaa05.tif
+│       │       │   ├── 072d3966fc6268d5.tif
+│       │       │   ├── 0a2783d7b229d2db.tif
+│       │       │   ├── 1629d1cca00ff7c9.tif
+│       │       │   ├── 18ee47202c22c65a.tif
+│       │       │   ├── 1c4267b94fb50040.tif
+│       │       │   ├── 1e28f8daf6a1056e.tif
+│       │       │   ├── 1e97ecf2cc28e745.tif
+│       │       │   ├── 36efa5315463e777.tif
+│       │       │   ├── 4a3d1c523320c936.tif
+│       │       │   ├── 539ad9080a693ecf.tif
+│       │       │   ├── 55912c6aaeff5de6.tif
+│       │       │   ├── 55a48d5879e3ad86.tif
+│       │       │   ├── 56a8c5b8ac235bb4.tif
+│       │       │   ├── 5954020890234aa6.tif
+│       │       │   ├── 60a29e807911144f.tif
+│       │       │   ├── 69dda2ea9dfcdf4e.tif
+│       │       │   ├── 6ee1398e71193b3e.tif
+│       │       │   ├── 73a2892fbba0694b.tif
+│       │       │   ├── 76c1daa3ddf3f90a.tif
+│       │       │   ├── 8749b8b3a27193d4.tif
+│       │       │   ├── 8aadf1044ff6d869.tif
+│       │       │   ├── 8eeffcc883bb6e98.tif
+│       │       │   ├── b2ed3c8808e245de.tif
+│       │       │   ├── b42b0f6c73e1a54d.tif
+│       │       │   ├── b458aa0aa5fc90dd.tif
+│       │       │   ├── b48b268cced7ae1b.tif
+│       │       │   ├── bd6f82fbc8a3df50.tif
+│       │       │   ├── bd888338a08b39e9.tif
+│       │       │   ├── c3bc0aaf1942971d.tif
+│       │       │   ├── c464c516453a395b.tif
+│       │       │   ├── cba0b0487ea1cbfb.tif
+│       │       │   ├── cc60a3cd4aea0d6d.tif
+│       │       │   ├── d16ea61db9009a33.tif
+│       │       │   ├── d673b473a5d87fd6.tif
+│       │       │   ├── d7b878739e4b22d5.tif
+│       │       │   ├── dafd6eb795c86401.tif
+│       │       │   ├── e0b738488db494da.tif
+│       │       │   ├── e2eab6e43a3ec61d.tif
+│       │       │   ├── e3cad8cc1772e364.tif
+│       │       │   ├── f2273645a3e51eb4.tif
+│       │       │   ├── f889aa84cccd3eff.tif
+│       │       │   ├── fae2e2c86611902d.tif
+│       │       │   ├── fb45351b2b7f1502.tif
+│       │       │   └── ff352e704a6cd237.tif
+│       │       └── TPEF
+│       │           ├── 092f05ab76238eff.tif
+│       │           ├── 103c3c81b9c95e67.tif
+│       │           ├── 14fed4059a29fa77.tif
+│       │           ├── 155466904d00dcc9.tif
+│       │           ├── 22a1976ba9739e37.tif
+│       │           ├── 2a8836d2cd46da2e.tif
+│       │           ├── 2efb5430abd1530a.tif
+│       │           ├── 400f9526b9db4fed.tif
+│       │           ├── 4a840aa9565c4d88.tif
+│       │           ├── 4e9811a1cc3514c7.tif
+│       │           ├── 573aecf35b5546c6.tif
+│       │           ├── 68b5a8dee4b83a69.tif
+│       │           ├── 69f019e379a6e327.tif
+│       │           ├── 6c4d3e4c5b6fb9fe.tif
+│       │           ├── 72be48faf08633c7.tif
+│       │           ├── 78f950f0e84d979d.tif
+│       │           ├── 881bddb8562ffa4c.tif
+│       │           ├── 8a32f16281a61fdc.tif
+│       │           ├── 8f257b54035cae41.tif
+│       │           ├── 95ab88dbac3ea255.tif
+│       │           ├── 98777e4676daa66b.tif
+│       │           ├── 9b4b0f4a3c616a54.tif
+│       │           ├── a58c7706622e3d32.tif
+│       │           ├── b23be0dad5e1bfee.tif
+│       │           ├── b7fea071549018fa.tif
+│       │           ├── ba637cd19b331b1c.tif
+│       │           ├── bf222a7721986877.tif
+│       │           ├── c7785d850ca7c1de.tif
+│       │           ├── ed7188f85d4d4b39.tif
+│       │           └── eece3a0096be3602.tif
+│       └── srs_cars_fused.npz
+├── proposta_foundation_models_multimodal.docx
+├── PROPOSTA_FOUNDATION_MODELS_MULTIMODAL.md
+├── raw
+│   └── IMAGENS
+│       ├── BOCA
+│       │   ├── 10.tif
+│       │   ├── 11-01-2025
+│       │   │   ├── 01_SHG_810_70 ganho_70 ganho_01acq_obj20_100mw_100mw
+│       │   │   │   └── 01_SHG_810_70 ganho_70 ganho_01acq_obj20_100mw_100mw_12-33-23_PMT_C0.ome.tif
+│       │   │   ├── 01_SHG_810_70 ganho_70 ganho_03acq_obj20_100mw_100mw
+│       │   │   │   └── 01_SHG_810_70 ganho_70 ganho_03acq_obj20_100mw_100mw_12-33-58_PMT_C0.ome.tif
+│       │   │   ├── 01_SHG_810_70 ganho_70 ganho_05acq_obj20_100mw_100mw
+│       │   │   │   └── 01_SHG_810_70 ganho_70 ganho_05acq_obj20_100mw_100mw_12-34-39_PMT_C0.ome.tif
+│       │   │   ├── 01_SHG_810_70 ganho_70 ganho_07acq_obj20_100mw_100mw
+│       │   │   │   └── 01_SHG_810_70 ganho_70 ganho_07acq_obj20_100mw_100mw_12-35-19_PMT_C0.ome.tif
+│       │   │   ├── 01_SHG_810_70 ganho_70 ganho_10acq_obj20_100mw_100mw
+│       │   │   │   └── 01_SHG_810_70 ganho_70 ganho_10acq_obj20_100mw_100mw_12-36-13_PMT_C0.ome.tif
+│       │   │   ├── 01_SHG_810_70 ganho_70 ganho_13acq_obj20_100mw_100mw
+│       │   │   │   └── 01_SHG_810_70 ganho_70 ganho_13acq_obj20_100mw_100mw_12-38-40_PMT_C0.ome.tif
+│       │   │   ├── 01_SHG_810_70 ganho_70 ganho_15acq_obj20_100mw_100mw
+│       │   │   │   └── 01_SHG_810_70 ganho_70 ganho_15acq_obj20_100mw_100mw_12-40-09_PMT_C0.ome.tif
+│       │   │   ├── 01_SHG_810_70 ganho_70 ganho_20acq_obj20_100mw_100mw
+│       │   │   │   └── 01_SHG_810_70 ganho_70 ganho_20acq_obj20_100mw_100mw_12-41-48_PMT_C0.ome.tif
+│       │   │   ├── 01_SRS-CARS_811_70 ganho_70 ganho_01acq_obj20_100mw_150mw
+│       │   │   │   ├── 01_SRS-CARS_810_70 ganho_70 ganho_01acq_obj20_100mw_150mw_13-31-16_PMT - PMT [PMT1] _C0.ome.tif
+│       │   │   │   └── 01_SRS-CARS_810_70 ganho_70 ganho_01acq_obj20_100mw_150mw_13-31-16_PMT - PMT [PMT2] _C1.ome.tif
+│       │   │   ├── 01_SRS-CARS_811_70 ganho_70 ganho_01acq_obj20_150mw_100mw
+│       │   │   │   ├── 01_SRS-CARS_810_70 ganho_70 ganho_01acq_obj20_150mw_100mw_13-07-24_PMT - PMT [PMT1] _C0.ome.tif
+│       │   │   │   └── 01_SRS-CARS_810_70 ganho_70 ganho_01acq_obj20_150mw_100mw_13-07-24_PMT - PMT [PMT2] _C1.ome.tif
+│       │   │   ├── 01_SRS-CARS_811_70 ganho_70 ganho_01acq_obj20_150mw_150mw
+│       │   │   │   ├── 01_SHG_810_70 ganho_70 ganho_20acq_obj20_150mw_150mw_12-51-29_PMT - PMT [PMT1] _C0.ome.tif
+│       │   │   │   └── 01_SHG_810_70 ganho_70 ganho_20acq_obj20_150mw_150mw_12-51-29_PMT - PMT [PMT2] _C1.ome.tif
+│       │   │   ├── 01_SRS-CARS_811_70 ganho_70 ganho_03acq_obj20_100mw_150mw
+│       │   │   │   ├── 01_SRS-CARS_810_70 ganho_70 ganho_03acq_obj20_100mw_150mw_13-29-31_PMT - PMT [PMT1] _C0.ome.tif
+│       │   │   │   └── 01_SRS-CARS_810_70 ganho_70 ganho_03acq_obj20_100mw_150mw_13-29-31_PMT - PMT [PMT2] _C1.ome.tif
+│       │   │   ├── 01_SRS-CARS_811_70 ganho_70 ganho_03acq_obj20_150mw_100mw
+│       │   │   │   ├── 01_SRS-CARS_810_70 ganho_70 ganho_03acq_obj20_150mw_100mw_13-08-18_PMT - PMT [PMT1] _C0.ome.tif
+│       │   │   │   └── 01_SRS-CARS_810_70 ganho_70 ganho_03acq_obj20_150mw_100mw_13-08-18_PMT - PMT [PMT2] _C1.ome.tif
+│       │   │   ├── 01_SRS-CARS_811_70 ganho_70 ganho_03acq_obj20_150mw_150mw
+│       │   │   │   ├── 01_SRS-CARS_810_70 ganho_70 ganho_03acq_obj20_150mw_150mw_12-52-02_PMT - PMT [PMT1] _C0.ome.tif
+│       │   │   │   └── 01_SRS-CARS_810_70 ganho_70 ganho_03acq_obj20_150mw_150mw_12-52-02_PMT - PMT [PMT2] _C1.ome.tif
+│       │   │   ├── 01_SRS-CARS_811_70 ganho_70 ganho_05acq_obj20_100mw_150mw
+│       │   │   │   ├── 01_SRS-CARS_810_70 ganho_70 ganho_05acq_obj20_100mw_150mw_13-28-36_PMT - PMT [PMT1] _C0.ome.tif
+│       │   │   │   └── 01_SRS-CARS_810_70 ganho_70 ganho_05acq_obj20_100mw_150mw_13-28-36_PMT - PMT [PMT2] _C1.ome.tif
+│       │   │   ├── 01_SRS-CARS_811_70 ganho_70 ganho_05acq_obj20_150mw_100mw
+│       │   │   │   ├── 01_SRS-CARS_810_70 ganho_70 ganho_05acq_obj20_150mw_100mw_13-08-56_PMT - PMT [PMT1] _C0.ome.tif
+│       │   │   │   └── 01_SRS-CARS_810_70 ganho_70 ganho_05acq_obj20_150mw_100mw_13-08-56_PMT - PMT [PMT2] _C1.ome.tif
+│       │   │   ├── 01_SRS-CARS_811_70 ganho_70 ganho_05acq_obj20_150mw_150mw
+│       │   │   │   ├── 01_SRS-CARS_810_70 ganho_70 ganho_05acq_obj20_150mw_150mw_12-53-37_PMT - PMT [PMT1] _C0.ome.tif
+│       │   │   │   └── 01_SRS-CARS_810_70 ganho_70 ganho_05acq_obj20_150mw_150mw_12-53-37_PMT - PMT [PMT2] _C1.ome.tif
+│       │   │   ├── 01_SRS-CARS_811_70 ganho_70 ganho_07acq_obj20_100mw_150mw
+│       │   │   │   ├── 01_SRS-CARS_810_70 ganho_70 ganho_07acq_obj20_100mw_150mw_13-26-22_PMT - PMT [PMT1] _C0.ome.tif
+│       │   │   │   └── 01_SRS-CARS_810_70 ganho_70 ganho_07acq_obj20_100mw_150mw_13-26-22_PMT - PMT [PMT2] _C1.ome.tif
+│       │   │   ├── 01_SRS-CARS_811_70 ganho_70 ganho_07acq_obj20_150mw_100mw
+│       │   │   │   ├── 01_SRS-CARS_810_70 ganho_70 ganho_07acq_obj20_150mw_100mw_13-10-27_PMT - PMT [PMT1] _C0.ome.tif
+│       │   │   │   └── 01_SRS-CARS_810_70 ganho_70 ganho_07acq_obj20_150mw_100mw_13-10-27_PMT - PMT [PMT2] _C1.ome.tif
+│       │   │   ├── 01_SRS-CARS_811_70 ganho_70 ganho_07acq_obj20_150mw_150mw
+│       │   │   │   ├── 01_SRS-CARS_810_70 ganho_70 ganho_07acq_obj20_150mw_150mw_12-55-06_PMT - PMT [PMT1] _C0.ome.tif
+│       │   │   │   └── 01_SRS-CARS_810_70 ganho_70 ganho_07acq_obj20_150mw_150mw_12-55-06_PMT - PMT [PMT2] _C1.ome.tif
+│       │   │   ├── 01_SRS-CARS_811_70 ganho_70 ganho_10acq_obj20_100mw_150mw
+│       │   │   │   ├── 01_SRS-CARS_810_70 ganho_70 ganho_20acq_obj10_100mw_150mw_13-25-10_PMT - PMT [PMT1] _C0.ome.tif
+│       │   │   │   └── 01_SRS-CARS_810_70 ganho_70 ganho_20acq_obj10_100mw_150mw_13-25-10_PMT - PMT [PMT2] _C1.ome.tif
+│       │   │   ├── 01_SRS-CARS_811_70 ganho_70 ganho_10acq_obj20_150mw_100mw
+│       │   │   │   ├── 01_SRS-CARS_810_70 ganho_70 ganho_10acq_obj20_150mw_100mw_13-05-50_PMT - PMT [PMT1] _C0.ome.tif
+│       │   │   │   └── 01_SRS-CARS_810_70 ganho_70 ganho_10acq_obj20_150mw_100mw_13-05-50_PMT - PMT [PMT2] _C1.ome.tif
+│       │   │   ├── 01_SRS-CARS_811_70 ganho_70 ganho_10acq_obj20_150mw_150mw
+│       │   │   │   ├── 01_SRS-CARS_810_70 ganho_70 ganho_10acq_obj20_150mw_150mw_12-56-23_PMT - PMT [PMT1] _C0.ome.tif
+│       │   │   │   └── 01_SRS-CARS_810_70 ganho_70 ganho_10acq_obj20_150mw_150mw_12-56-23_PMT - PMT [PMT2] _C1.ome.tif
+│       │   │   ├── 01_SRS-CARS_811_70 ganho_70 ganho_13acq_obj20_100mw_150mw
+│       │   │   │   ├── 01_SRS-CARS_810_70 ganho_70 ganho_20acq_obj13_100mw_150mw_13-23-43_PMT - PMT [PMT1] _C0.ome.tif
+│       │   │   │   └── 01_SRS-CARS_810_70 ganho_70 ganho_20acq_obj13_100mw_150mw_13-23-43_PMT - PMT [PMT2] _C1.ome.tif
+│       │   │   ├── 01_SRS-CARS_811_70 ganho_70 ganho_13acq_obj20_150mw_100mw
+│       │   │   │   ├── 01_SRS-CARS_810_70 ganho_70 ganho_13acq_obj20_150mw_100mw_13-12-11_PMT - PMT [PMT1] _C0.ome.tif
+│       │   │   │   └── 01_SRS-CARS_810_70 ganho_70 ganho_13acq_obj20_150mw_100mw_13-12-11_PMT - PMT [PMT2] _C1.ome.tif
+│       │   │   ├── 01_SRS-CARS_811_70 ganho_70 ganho_13acq_obj20_150mw_150mw
+│       │   │   │   ├── 01_SRS-CARS_810_70 ganho_70 ganho_13acq_obj20_150mw_150mw_12-57-57_PMT - PMT [PMT1] _C0.ome.tif
+│       │   │   │   └── 01_SRS-CARS_810_70 ganho_70 ganho_13acq_obj20_150mw_150mw_12-57-57_PMT - PMT [PMT2] _C1.ome.tif
+│       │   │   ├── 01_SRS-CARS_811_70 ganho_70 ganho_15acq_obj20_100mw_150mw
+│       │   │   │   ├── 01_SRS-CARS_810_70 ganho_70 ganho_20acq_obj15_100mw_150mw_13-21-48_PMT - PMT [PMT1] _C0.ome.tif
+│       │   │   │   └── 01_SRS-CARS_810_70 ganho_70 ganho_20acq_obj15_100mw_150mw_13-21-48_PMT - PMT [PMT2] _C1.ome.tif
+│       │   │   ├── 01_SRS-CARS_811_70 ganho_70 ganho_15acq_obj20_150mw_100mw
+│       │   │   │   ├── 01_SRS-CARS_810_70 ganho_70 ganho_15acq_obj20_150mw_100mw_13-14-11_PMT - PMT [PMT1] _C0.ome.tif
+│       │   │   │   └── 01_SRS-CARS_810_70 ganho_70 ganho_15acq_obj20_150mw_100mw_13-14-11_PMT - PMT [PMT2] _C1.ome.tif
+│       │   │   ├── 01_SRS-CARS_811_70 ganho_70 ganho_15acq_obj20_150mw_150mw
+│       │   │   │   ├── 01_SRS-CARS_810_70 ganho_70 ganho_15acq_obj20_150mw_150mw_13-00-02_PMT - PMT [PMT1] _C0.ome.tif
+│       │   │   │   └── 01_SRS-CARS_810_70 ganho_70 ganho_15acq_obj20_150mw_150mw_13-00-02_PMT - PMT [PMT2] _C1.ome.tif
+│       │   │   ├── 01_SRS-CARS_811_70 ganho_70 ganho_20acq_obj20_100mw_150mw
+│       │   │   │   ├── 01_SRS-CARS_810_70 ganho_70 ganho_20acq_obj20_100mw_150mw_13-18-28_PMT - PMT [PMT1] _C0.ome.tif
+│       │   │   │   └── 01_SRS-CARS_810_70 ganho_70 ganho_20acq_obj20_100mw_150mw_13-18-28_PMT - PMT [PMT2] _C1.ome.tif
+│       │   │   ├── 01_SRS-CARS_811_70 ganho_70 ganho_20acq_obj20_150mw_100mw
+│       │   │   │   ├── 01_SRS-CARS_810_70 ganho_70 ganho_20acq_obj20_150mw_100mw_13-15-58_PMT - PMT [PMT1] _C0.ome.tif
+│       │   │   │   └── 01_SRS-CARS_810_70 ganho_70 ganho_20acq_obj20_150mw_100mw_13-15-58_PMT - PMT [PMT2] _C1.ome.tif
+│       │   │   ├── 01_SRS-CARS_811_70 ganho_70 ganho_20acq_obj20_150mw_150mw
+│       │   │   │   ├── 01_SRS-CARS_810_70 ganho_70 ganho_20acq_obj20_150mw_150mw_13-03-01_PMT - PMT [PMT1] _C0.ome.tif
+│       │   │   │   └── 01_SRS-CARS_810_70 ganho_70 ganho_20acq_obj20_150mw_150mw_13-03-01_PMT - PMT [PMT2] _C1.ome.tif
+│       │   │   ├── 01_SRS-CARS_816_70 ganho_70 ganho_01acq_obj20_100mw_150mw
+│       │   │   │   ├── 01_SRS-CARS_816_70 ganho_70 ganho_01acq_obj20_100mw_150mw_13-37-17_PMT - PMT [PMT1] _C0.ome.tif
+│       │   │   │   └── 01_SRS-CARS_816_70 ganho_70 ganho_01acq_obj20_100mw_150mw_13-37-17_PMT - PMT [PMT2] _C1.ome.tif
+│       │   │   ├── 01_SRS-CARS_816_70 ganho_70 ganho_01acq_obj20_150mw_100mw
+│       │   │   │   ├── 01_SRS-CARS_816_70 ganho_70 ganho_01acq_obj20_150mw_100mw_13-59-04_PMT - PMT [PMT1] _C0.ome.tif
+│       │   │   │   └── 01_SRS-CARS_816_70 ganho_70 ganho_01acq_obj20_150mw_100mw_13-59-04_PMT - PMT [PMT2] _C1.ome.tif
+│       │   │   ├── 01_SRS-CARS_816_70 ganho_70 ganho_01acq_obj20_150mw_150mw
+│       │   │   │   ├── 01_SRS-CARS_816_70 ganho_70 ganho_01acq_obj20_150mw_150mw_13-59-55_PMT - PMT [PMT1] _C0.ome.tif
+│       │   │   │   └── 01_SRS-CARS_816_70 ganho_70 ganho_01acq_obj20_150mw_150mw_13-59-55_PMT - PMT [PMT2] _C1.ome.tif
+│       │   │   ├── 01_SRS-CARS_816_70 ganho_70 ganho_03acq_obj20_100mw_150mw
+│       │   │   │   ├── 01_SRS-CARS_816_70 ganho_70 ganho_03acq_obj20_100mw_150mw_13-38-21_PMT - PMT [PMT1] _C0.ome.tif
+│       │   │   │   └── 01_SRS-CARS_816_70 ganho_70 ganho_03acq_obj20_100mw_150mw_13-38-21_PMT - PMT [PMT2] _C1.ome.tif
+│       │   │   ├── 01_SRS-CARS_816_70 ganho_70 ganho_03acq_obj20_150mw_100mw
+│       │   │   │   ├── 01_SRS-CARS_816_70 ganho_70 ganho_03acq_obj20_150mw_100mw_13-58-37_PMT - PMT [PMT1] _C0.ome.tif
+│       │   │   │   └── 01_SRS-CARS_816_70 ganho_70 ganho_03acq_obj20_150mw_100mw_13-58-37_PMT - PMT [PMT2] _C1.ome.tif
+│       │   │   ├── 01_SRS-CARS_816_70 ganho_70 ganho_03acq_obj20_150mw_150mw
+│       │   │   │   ├── 01_SRS-CARS_816_70 ganho_70 ganho_03acq_obj20_150mw_150mw_14-00-12_PMT - PMT [PMT1] _C0.ome.tif
+│       │   │   │   └── 01_SRS-CARS_816_70 ganho_70 ganho_03acq_obj20_150mw_150mw_14-00-12_PMT - PMT [PMT2] _C1.ome.tif
+│       │   │   ├── 01_SRS-CARS_816_70 ganho_70 ganho_05acq_obj20_100mw_150mw
+│       │   │   │   ├── 01_SRS-CARS_816_70 ganho_70 ganho_05acq_obj20_100mw_150mw_13-39-53_PMT - PMT [PMT1] _C0.ome.tif
+│       │   │   │   └── 01_SRS-CARS_816_70 ganho_70 ganho_05acq_obj20_100mw_150mw_13-39-53_PMT - PMT [PMT2] _C1.ome.tif
+│       │   │   ├── 01_SRS-CARS_816_70 ganho_70 ganho_05acq_obj20_150mw_100mw
+│       │   │   │   ├── 01_SRS-CARS_816_70 ganho_70 ganho_05acq_obj20_150mw_100mw_13-57-48_PMT - PMT [PMT1] _C0.ome.tif
+│       │   │   │   └── 01_SRS-CARS_816_70 ganho_70 ganho_05acq_obj20_150mw_100mw_13-57-48_PMT - PMT [PMT2] _C1.ome.tif
+│       │   │   ├── 01_SRS-CARS_816_70 ganho_70 ganho_05acq_obj20_150mw_150mw
+│       │   │   │   ├── 01_SRS-CARS_816_70 ganho_70 ganho_05acq_obj20_150mw_150mw_14-00-40_PMT - PMT [PMT1] _C0.ome.tif
+│       │   │   │   └── 01_SRS-CARS_816_70 ganho_70 ganho_05acq_obj20_150mw_150mw_14-00-40_PMT - PMT [PMT2] _C1.ome.tif
+│       │   │   ├── 01_SRS-CARS_816_70 ganho_70 ganho_07acq_obj20_100mw_150mw
+│       │   │   │   ├── 01_SRS-CARS_816_70 ganho_70 ganho_07acq_obj20_100mw_150mw_13-41-24_PMT - PMT [PMT1] _C0.ome.tif
+│       │   │   │   └── 01_SRS-CARS_816_70 ganho_70 ganho_07acq_obj20_100mw_150mw_13-41-24_PMT - PMT [PMT2] _C1.ome.tif
+│       │   │   ├── 01_SRS-CARS_816_70 ganho_70 ganho_07acq_obj20_150mw_100mw
+│       │   │   │   ├── 01_SRS-CARS_816_70 ganho_70 ganho_07acq_obj20_150mw_100mw_13-56-58_PMT - PMT [PMT1] _C0.ome.tif
+│       │   │   │   └── 01_SRS-CARS_816_70 ganho_70 ganho_07acq_obj20_150mw_100mw_13-56-58_PMT - PMT [PMT2] _C1.ome.tif
+│       │   │   ├── 01_SRS-CARS_816_70 ganho_70 ganho_07acq_obj20_150mw_150mw
+│       │   │   │   ├── 01_SRS-CARS_816_70 ganho_70 ganho_07acq_obj20_150mw_150mw_14-01-20_PMT - PMT [PMT1] _C0.ome.tif
+│       │   │   │   └── 01_SRS-CARS_816_70 ganho_70 ganho_07acq_obj20_150mw_150mw_14-01-20_PMT - PMT [PMT2] _C1.ome.tif
+│       │   │   ├── 01_SRS-CARS_816_70 ganho_70 ganho_10acq_obj20_100mw_150mw
+│       │   │   │   ├── 01_SRS-CARS_816_70 ganho_70 ganho_10acq_obj20_100mw_150mw_13-42-30_PMT - PMT [PMT1] _C0.ome.tif
+│       │   │   │   └── 01_SRS-CARS_816_70 ganho_70 ganho_10acq_obj20_100mw_150mw_13-42-30_PMT - PMT [PMT2] _C1.ome.tif
+│       │   │   ├── 01_SRS-CARS_816_70 ganho_70 ganho_10acq_obj20_150mw_100mw
+│       │   │   │   ├── 01_SRS-CARS_816_70 ganho_70 ganho_10acq_obj20_150mw_100mw_13-55-48_PMT - PMT [PMT1] _C0.ome.tif
+│       │   │   │   └── 01_SRS-CARS_816_70 ganho_70 ganho_10acq_obj20_150mw_100mw_13-55-48_PMT - PMT [PMT2] _C1.ome.tif
+│       │   │   ├── 01_SRS-CARS_816_70 ganho_70 ganho_10acq_obj20_150mw_150mw
+│       │   │   │   ├── 01_SRS-CARS_816_70 ganho_70 ganho_10acq_obj20_150mw_150mw_14-02-15_PMT - PMT [PMT1] _C0.ome.tif
+│       │   │   │   └── 01_SRS-CARS_816_70 ganho_70 ganho_10acq_obj20_150mw_150mw_14-02-15_PMT - PMT [PMT2] _C1.ome.tif
+│       │   │   ├── 01_SRS-CARS_816_70 ganho_70 ganho_13acq_obj20_100mw_150mw
+│       │   │   │   ├── 01_SRS-CARS_816_70 ganho_70 ganho_13acq_obj20_100mw_150mw_13-43-38_PMT - PMT [PMT1] _C0.ome.tif
+│       │   │   │   └── 01_SRS-CARS_816_70 ganho_70 ganho_13acq_obj20_100mw_150mw_13-43-38_PMT - PMT [PMT2] _C1.ome.tif
+│       │   │   ├── 01_SRS-CARS_816_70 ganho_70 ganho_13acq_obj20_150mw_100mw
+│       │   │   │   ├── 01_SRS-CARS_816_70 ganho_70 ganho_13acq_obj20_150mw_100mw_13-54-09_PMT - PMT [PMT1] _C0.ome.tif
+│       │   │   │   └── 01_SRS-CARS_816_70 ganho_70 ganho_13acq_obj20_150mw_100mw_13-54-09_PMT - PMT [PMT2] _C1.ome.tif
+│       │   │   ├── 01_SRS-CARS_816_70 ganho_70 ganho_13acq_obj20_150mw_150mw
+│       │   │   │   ├── 01_SRS-CARS_816_70 ganho_70 ganho_13acq_obj20_150mw_150mw_14-03-22_PMT - PMT [PMT1] _C0.ome.tif
+│       │   │   │   └── 01_SRS-CARS_816_70 ganho_70 ganho_13acq_obj20_150mw_150mw_14-03-22_PMT - PMT [PMT2] _C1.ome.tif
+│       │   │   ├── 01_SRS-CARS_816_70 ganho_70 ganho_15acq_obj20_100mw_150mw
+│       │   │   │   ├── 01_SRS-CARS_816_70 ganho_70 ganho_15acq_obj20_100mw_150mw_13-45-10_PMT - PMT [PMT1] _C0.ome.tif
+│       │   │   │   └── 01_SRS-CARS_816_70 ganho_70 ganho_15acq_obj20_100mw_150mw_13-45-10_PMT - PMT [PMT2] _C1.ome.tif
+│       │   │   ├── 01_SRS-CARS_816_70 ganho_70 ganho_15acq_obj20_150mw_100mw
+│       │   │   │   ├── 01_SRS-CARS_816_70 ganho_70 ganho_15acq_obj20_150mw_100mw_13-52-36_PMT - PMT [PMT1] _C0.ome.tif
+│       │   │   │   └── 01_SRS-CARS_816_70 ganho_70 ganho_15acq_obj20_150mw_100mw_13-52-36_PMT - PMT [PMT2] _C1.ome.tif
+│       │   │   ├── 01_SRS-CARS_816_70 ganho_70 ganho_15acq_obj20_150mw_150mw
+│       │   │   │   ├── 01_SRS-CARS_816_70 ganho_70 ganho_15acq_obj20_150mw_150mw_14-04-43_PMT - PMT [PMT1] _C0.ome.tif
+│       │   │   │   └── 01_SRS-CARS_816_70 ganho_70 ganho_15acq_obj20_150mw_150mw_14-04-43_PMT - PMT [PMT2] _C1.ome.tif
+│       │   │   ├── 01_SRS-CARS_816_70 ganho_70 ganho_20acq_obj20_100mw_150mw
+│       │   │   │   ├── 01_SRS-CARS_816_70 ganho_70 ganho_20acq_obj20_100mw_150mw_13-46-45_PMT - PMT [PMT1] _C0.ome.tif
+│       │   │   │   └── 01_SRS-CARS_816_70 ganho_70 ganho_20acq_obj20_100mw_150mw_13-46-45_PMT - PMT [PMT2] _C1.ome.tif
+│       │   │   ├── 01_SRS-CARS_816_70 ganho_70 ganho_20acq_obj20_150mw_100mw
+│       │   │   │   ├── 01_SRS-CARS_816_70 ganho_70 ganho_20acq_obj20_150mw_100mw_13-50-31_PMT - PMT [PMT1] _C0.ome.tif
+│       │   │   │   └── 01_SRS-CARS_816_70 ganho_70 ganho_20acq_obj20_150mw_100mw_13-50-31_PMT - PMT [PMT2] _C1.ome.tif
+│       │   │   ├── 01_SRS-CARS_816_70 ganho_70 ganho_20acq_obj20_150mw_150mw
+│       │   │   │   ├── 01_SRS-CARS_816_70 ganho_70 ganho_20acq_obj20_150mw_150mw_14-06-38_PMT - PMT [PMT1] _C0.ome.tif
+│       │   │   │   └── 01_SRS-CARS_816_70 ganho_70 ganho_20acq_obj20_150mw_150mw_14-06-38_PMT - PMT [PMT2] _C1.ome.tif
+│       │   │   ├── 01_TPEF_810_70 ganho_70 ganho_01 acq_obj20_100mw_100mw
+│       │   │   │   └── 01_TPEF_810_70 ganho_70 ganho_10 acq_obj20_100mw_100mw_12-20-00_PMT_C0.ome.tif
+│       │   │   ├── 01_TPEF_810_70 ganho_70 ganho_03acq_obj20_100mw_100mw
+│       │   │   │   └── 01_TPEF_810_70 ganho_70 ganho_03acq_obj20_100mw_100mw_12-21-19_PMT_C0.ome.tif
+│       │   │   ├── 01_TPEF_810_70 ganho_70 ganho_05acq_obj20_100mw_100mw
+│       │   │   │   └── 01_TPEF_810_70 ganho_70 ganho_05acq_obj20_100mw_100mw_12-22-07_PMT_C0.ome.tif
+│       │   │   ├── 01_TPEF_810_70 ganho_70 ganho_07acq_obj20_100mw_100mw
+│       │   │   │   └── 01_TPEF_810_70 ganho_70 ganho_07acq_obj20_100mw_100mw_12-22-56_PMT_C0.ome.tif
+│       │   │   ├── 01_TPEF_810_70 ganho_70 ganho_10acq_obj20_100mw_100mw
+│       │   │   │   └── 01_TPEF_810_70 ganho_70 ganho_10acq_obj20_100mw_100mw_12-23-59_PMT_C0.ome.tif
+│       │   │   ├── 01_TPEF_810_70 ganho_70 ganho_13acq_obj20_100mw_100mw
+│       │   │   │   └── 01_TPEF_810_70 ganho_70 ganho_13acq_obj20_100mw_100mw_12-25-27_PMT_C0.ome.tif
+│       │   │   ├── 01_TPEF_810_70 ganho_70 ganho_15acq_obj20_100mw_100mw
+│       │   │   │   └── 01_TPEF_810_70 ganho_70 ganho_15acq_obj20_100mw_100mw_12-27-42_PMT_C0.ome.tif
+│       │   │   └── 01_TPEF_810_70 ganho_70 ganho_20acq_obj20_100mw_100mw
+│       │   │       └── 01_TPEF_810_70 ganho_70 ganho_20acq_obj20_100mw_100mw_12-29-22_PMT_C0.ome.tif
+│       │   ├── 1.tif
+│       │   ├── 20.tif
+│       │   └── 24-02-2025
+│       │       ├── CORADO
+│       │       │   ├── 01_SHG_810_10 acq_obj20x_15mw
+│       │       │   │   └── 01_SHG_810_10 acq_obj20x_15mw_12-29-32_PMT_C0.ome.tif
+│       │       │   ├── 01_TPEF_810_10 acq_obj20x_15mw
+│       │       │   │   └── 01_TPEF_810_10 acq_obj20x_15mw_12-35-07_PMT_C0.ome.tif
+│       │       │   ├── 02_SHG_810_10 acq_obj20x_15mw
+│       │       │   │   └── 02_SHG_810_10 acq_obj20x_15mw_12-30-46_PMT_C0.ome.tif
+│       │       │   ├── 02_TPEF_810_10 acq_obj20x_15mw
+│       │       │   │   └── 02_TPEF_810_10 acq_obj20x_15mw_12-36-02_PMT_C0.ome.tif
+│       │       │   ├── 03_SHG_810_10 acq_obj20x_15mw
+│       │       │   │   └── 03_SHG_810_10 acq_obj20x_15mw_12-31-32_PMT_C0.ome.tif
+│       │       │   ├── 03_TPEF_810_10 acq_obj20x_15mw
+│       │       │   │   └── 03_TPEF_810_10 acq_obj20x_15mw_12-37-40_PMT_C0.ome.tif
+│       │       │   ├── 04_SHG_810_10 acq_obj20x_15mw
+│       │       │   │   └── 04_SHG_810_10 acq_obj20x_15mw_12-32-15_PMT_C0.ome.tif
+│       │       │   ├── 04_TPEF_810_10 acq_obj20x_15mw
+│       │       │   │   └── 04_TPEF_810_10 acq_obj20x_15mw_12-33-59_PMT_C0.ome.tif
+│       │       │   ├── 05_SHG_810_10 acq_obj20x_15mw
+│       │       │   │   └── 05_SHG_810_10 acq_obj20x_15mw_12-45-05_PMT_C0.ome.tif
+│       │       │   ├── 05_TPEF_810_10 acq_obj20x_15mw
+│       │       │   │   └── 05_TPEF_810_10 acq_obj20x_15mw_12-39-14_PMT_C0.ome.tif
+│       │       │   ├── 06_SHG_810_10 acq_obj20x_15mw
+│       │       │   │   └── 06_SHG_810_10 acq_obj20x_15mw_12-45-48_PMT_C0.ome.tif
+│       │       │   ├── 06_TPEF_810_10 acq_obj20x_15mw
+│       │       │   │   └── 06_TPEF_810_10 acq_obj20x_15mw_12-40-34_PMT_C0.ome.tif
+│       │       │   ├── 07_SHG_810_10 acq_obj20x_15mw
+│       │       │   │   └── 07_SHG_810_10 acq_obj20x_15mw_12-46-38_PMT_C0.ome.tif
+│       │       │   ├── 07_TPEF_810_10 acq_obj20x_15mw
+│       │       │   │   └── 07_TPEF_810_10 acq_obj20x_15mw_12-41-17_PMT_C0.ome.tif
+│       │       │   ├── 08_SHG_810_10 acq_obj20x_15mw
+│       │       │   │   └── 08_SHG_810_10 acq_obj20x_15mw_12-44-26_PMT_C0.ome.tif
+│       │       │   └── 08_TPEF_810_10 acq_obj20x_15mw
+│       │       │       └── 08_TPEF_810_10 acq_obj20x_15mw_12-42-04_PMT_C0.ome.tif
+│       │       └── SEM CORAR
+│       │           ├── 01_SHG_810_10 acq_obj20x_15mw
+│       │           │   └── 01_SHG_810_10 acq_obj20x_15mw_11-39-11_PMT_C0.ome.tif
+│       │           ├── 02_SHG_810_10 acq_obj20x_15mw
+│       │           │   └── 02_SHG_810_10 acq_obj20x_15mw_11-40-55_PMT_C0.ome.tif
+│       │           ├── 03_SHG_810_10 acq_obj20x_15mw
+│       │           │   └── 03_SHG_810_10 acq_obj20x_15mw_11-41-47_PMT_C0.ome.tif
+│       │           ├── 03_TPEF_810_10 acq_obj20x_15mw
+│       │           │   └── 03_TPEF_810_10 acq_obj20x_15mw_11-47-30_PMT_C0.ome.tif
+│       │           ├── 04_SHG_810_10 acq_obj20x_15mw
+│       │           │   └── 04_SHG_810_10 acq_obj20x_15mw_11-43-16_PMT_C0.ome.tif
+│       │           ├── 04_TPEF_810_10 acq_obj20x_15mw
+│       │           │   └── 04_TPEF_810_10 acq_obj20x_15mw_11-49-00_PMT_C0.ome.tif
+│       │           ├── 05_SHG_810_10 acq_obj20x_15mw
+│       │           │   └── 05_SHG_810_10 acq_obj20x_15mw_11-44-04_PMT_C0.ome.tif
+│       │           ├── 05_TPEF_810_10 acq_obj20x_15mw
+│       │           │   └── 05_TPEF_810_10 acq_obj20x_15mw_11-49-46_PMT_C0.ome.tif
+│       │           ├── 06_SHG_810_10 acq_obj20x_15mw
+│       │           │   └── 06_SHG_810_10 acq_obj20x_15mw_11-44-54_PMT_C0.ome.tif
+│       │           ├── 06_TPEF_810_10 acq_obj20x_15mw
+│       │           │   └── 06_TPEF_810_10 acq_obj20x_15mw_11-46-29_PMT_C0.ome.tif
+│       │           ├── 07_SHG_810_10 acq_obj20x_15mw
+│       │           │   └── 07_SHG_810_10 acq_obj20x_15mw_11-54-46_PMT_C0.ome.tif
+│       │           ├── 08_SHG_810_10 acq_obj20x_15mw
+│       │           │   └── 08_SHG_810_10 acq_obj20x_15mw_11-56-09_PMT_C0.ome.tif
+│       │           ├── 09_SHG_810_10 acq_obj20x_15mw
+│       │           │   └── 09_SHG_810_10 acq_obj20x_15mw_11-57-26_PMT_C0.ome.tif
+│       │           ├── 10_SHG_810_10 acq_obj20x_15mw
+│       │           │   └── 10_SHG_810_10 acq_obj20x_15mw_12-00-23_PMT_C0.ome.tif
+│       │           ├── 10_TPEF_810_10 acq_obj20x_15mw
+│       │           │   └── 10_TPEF_810_10 acq_obj20x_15mw_12-04-21_PMT_C0.ome.tif
+│       │           ├── 11_SHG_810_10 acq_obj20x_15mw
+│       │           │   └── 11_SHG_810_10 acq_obj20x_15mw_12-01-20_PMT_C0.ome.tif
+│       │           ├── 11_TPEF_810_10 acq_obj20x_15mw
+│       │           │   └── 11_TPEF_810_10 acq_obj20x_15mw_12-05-59_PMT_C0.ome.tif
+│       │           ├── 12_SHG_810_10 acq_obj20x_15mw
+│       │           │   └── 12_SHG_810_10 acq_obj20x_15mw_12-02-09_PMT_C0.ome.tif
+│       │           ├── 12_TPEF_810_10 acq_obj20x_15mw
+│       │           │   └── 12_TPEF_810_10 acq_obj20x_15mw_12-07-07_PMT_C0.ome.tif
+│       │           ├── 13_SHG_810_10 acq_obj20x_15mw
+│       │           │   └── 13_SHG_810_10 acq_obj20x_15mw_12-10-24_PMT_C0.ome.tif
+│       │           ├── 13_TPEF_810_10 acq_obj20x_15mw
+│       │           │   └── 13_TPEF_810_10 acq_obj20x_15mw_12-18-22_PMT_C0.ome.tif
+│       │           ├── 14_SHG_810_10 acq_obj20x_15mw
+│       │           │   └── 14_SHG_810_10 acq_obj20x_15mw_12-11-22_PMT_C0.ome.tif
+│       │           ├── 14_TPEF_810_10 acq_obj20x_15mw
+│       │           │   └── 14_TPEF_810_10 acq_obj20x_15mw_12-17-36_PMT_C0.ome.tif
+│       │           ├── 15_SHG_810_10 acq_obj20x_15mw
+│       │           │   └── 16_SHG_810_10 acq_obj20x_15mw_12-13-23_PMT_C0.ome.tif
+│       │           ├── 15_TPEF_810_10 acq_obj20x_15mw
+│       │           │   └── 16_TPEF_810_10 acq_obj20x_15mw_12-15-42_PMT_C0.ome.tif
+│       │           ├── 16_SHG_810_10 acq_obj20x_15mw
+│       │           │   └── 15_SHG_810_10 acq_obj20x_15mw_12-12-15_PMT_C0.ome.tif
+│       │           ├── 16_TPEF_810_10 acq_obj20x_15mw
+│       │           │   └── 15_TPEF_810_10 acq_obj20x_15mw_12-16-44_PMT_C0.ome.tif
+│       │           ├── 17_SHG_810_10 acq_obj20x_15mw
+│       │           │   └── 17_SHG_810_10 acq_obj20x_15mw_12-26-55_PMT_C0.ome.tif
+│       │           ├── 17_TPEF_810_10 acq_obj20x_15mw
+│       │           │   └── 17_TPEF_810_10 acq_obj20x_15mw_12-20-23_PMT_C0.ome.tif
+│       │           ├── 18_SHG_810_10 acq_obj20x_15mw
+│       │           │   └── 18_SHG_810_10 acq_obj20x_15mw_12-26-04_PMT_C0.ome.tif
+│       │           ├── 18_TPEF_810_10 acq_obj20x_15mw
+│       │           │   └── 18_TPEF_810_10 acq_obj20x_15mw_12-21-32_PMT_C0.ome.tif
+│       │           ├── 19_SHG_810_10 acq_obj20x_15mw
+│       │           │   └── 19_SHG_810_10 acq_obj20x_15mw_12-25-02_PMT_C0.ome.tif
+│       │           └── 19_TPEF_810_10 acq_obj20x_15mw
+│       │               └── 19_TPEF_810_10 acq_obj20x_15mw_12-23-34_PMT_C0.ome.tif
+│       └── NERVO OPTICO DEGENERAÇÃO WALLERIANA
+│           └── NO
+│               ├── 01_CARS_811_10 acq_obj60x_350mw_300mw
+│               │   └── 01_CARS_811_10 acq_obj60x_350mw_300mw_13-12-36_PMT_C0.ome.tif
+│               ├── 01_CARS_811_75 ganho_10 acq_obj20x_120mw_100mw
+│               │   └── 01_CARS_811_75 ganho_10 acq_obj20x_120mw_100mw_10-39-53_PMT_C0.ome.tif
+│               ├── 01_CARS_816_10 acq_obj20x_400X400_120mw_100mw
+│               │   └── 01_CARS_816_10 acq_obj20x_400X400_120mw_100mw_16-20-50_PMT_C0.ome.tif
+│               ├── 01_CARS_816_10 acq_obj20x_750X750_120mw_100mw
+│               │   └── 01_CARS_816_10 acq_obj20x_750X750_120mw_100mw_16-18-35_PMT_C0.ome.tif
+│               ├── 01_CARS_816_10 acq_obj60x_350mw_300mw
+│               │   └── 01_CARS_816_10 acq_obj60x_350mw_300mw_12-23-13_PMT_C0.ome.tif
+│               ├── 01_CARS_816_75 ganho_10 acq_obj20x_120mw_100mw
+│               │   └── 01_CARS_816_75 ganho_10 acq_obj20x_120mw_100mw_10-17-06_PMT_C0.ome.tif
+│               ├── 01_CARS_828.8_10 acq_obj60x_350mw_300mw
+│               │   └── 01_CARS_828_8_10 acq_obj60x_350mw_300mw_13-15-39_PMT_C0.ome.tif
+│               ├── 01_CARS_828.8_75 ganho_10 acq_obj20x_120mw_100mw
+│               │   └── 01_CARS_828_8_75 ganho_10 acq_obj20x_120mw_100mw_10-44-43_PMT_C0.ome.tif
+│               ├── 01_TPEF_811_75 ganho_10 acq_obj20x_120mw_100mw
+│               │   └── 01_TPFL_811_75 ganho_10 acq_obj20x_120mw_100mw_10-41-57_PMT_C0.ome.tif
+│               ├── 01_TPEF_816_75 ganho_10 acq_obj20x_120mw_100mw
+│               │   └── 01_TPFL_816_75 ganho_10 acq_obj20x_120mw_100mw_10-35-09_PMT_C0.ome.tif
+│               ├── 01_TPEF_828.8_75 ganho_10 acq_obj20x_120mw_100mw
+│               │   └── 01_TPEF_828_8_75 ganho_10 acq_obj20x_120mw_100mw_10-46-44_PMT_C0.ome.tif
+│               ├── 02_CARS_811_10 acq_obj20x_350mw_300mw
+│               │   └── 02_CARS_811_10 acq_obj20x_350mw_300mw_13-55-55_PMT_C0.ome.tif
+│               ├── 02_CARS_811_75 ganho_10 acq_obj20x_120mw_100mw
+│               │   └── 02_CARS_811_75 ganho_10 acq_obj20x_120mw_100mw_11-36-24_PMT_C0.ome.tif
+│               ├── 02_CARS_816_10 acq_obj20x_350mw_300mw
+│               │   └── 02_CARS_816_10 acq_obj20x_350mw_300mw_13-52-18_PMT_C0.ome.tif
+│               ├── 02_CARS_816_10 acq_obj20x_400X400_120mw_100mw
+│               │   └── 02_CARS_816_10 acq_obj20x_400X400_120mw_100mw_16-32-23_PMT_C0.ome.tif
+│               ├── 02_CARS_816_10 acq_obj20x_750X750_120mw_100mw
+│               │   └── 02_CARS_816_10 acq_obj20x_750X750_120mw_100mw_16-30-35_PMT_C0.ome.tif
+│               ├── 02_CARS_816_10 acq_obj40x_500X500_120mw_100mw
+│               │   └── 02_CARS_816_10 acq_obj40x_500X500_120mw_100mw_16-38-30_PMT_C0.ome.tif
+│               ├── 02_CARS_816_75 ganho_10 acq_obj20x_120mw_100mw
+│               │   └── 02_CARS_816_75 ganho_10 acq_obj20x_120mw_100mw_11-32-36_PMT_C0.ome.tif
+│               ├── 02_CARS_828.8_10 acq_obj20x_350mw_300mw
+│               │   └── 02_CARS_828_8_10 acq_obj20x_350mw_300mw_13-49-26_PMT_C0.ome.tif
+│               ├── 02_CARS_828.8_75 ganho_10 acq_obj20x_120mw_100mw
+│               │   └── 02_CARS_828_8_75 ganho_10 acq_obj20x_120mw_100mw_11-38-35_PMT_C0.ome.tif
+│               ├── 02_TPEF_816_75 ganho_10 acq_obj20x_120mw_100mw
+│               │   └── 02_TPEF_816_75 ganho_10 acq_obj20x_120mw_100mw_11-34-20_PMT_C0.ome.tif
+│               ├── 03_CARS_816_10 acq_obj40x_500X500_120mw_100mw
+│               │   └── 03_CARS_816_10 acq_obj40x_500X500_120mw_100mw_16-40-41_PMT_C0.ome.tif
+│               ├── 04_CARS_811_10 acq_obj20x_400X400_120mw_100mw
+│               │   └── 04_CARS_811_10 acq_obj20x_400X400_350mw_300mw_14-47-49_PMT_C0.ome.tif
+│               ├── 04_CARS_811_10 acq_obj20x_750X750_120mw_100mw
+│               │   └── 04_CARS_811_10 acq_obj20x_350mw_300mw_14-44-51_PMT_C0.ome.tif
+│               ├── 04_CARS_811_10 acq_obj60x_400X400_350mw_300mw
+│               │   └── 04_CARS_811_10 acq_obj60x_400X400_350mw_300mw_15-16-51_PMT_C0.ome.tif
+│               ├── 04_CARS_816_10 acq_obj20x_400X400_120mw_100mw
+│               │   └── 04_CARS_816_10 acq_obj20x_400X400_120mw_100mw_14-54-09_PMT_C0.ome.tif
+│               ├── 04_CARS_816_10 acq_obj20x_750X750_120mw_100mw
+│               │   └── 04_CARS_816_10 acq_obj20x_750X750_120mw_100mw_14-51-50_PMT_C0.ome.tif
+│               ├── 04_CARS_816_10 acq_obj60x_400X400_350mw_300mw
+│               │   └── 04_CARS_816_10 acq_obj60x_400X400_120mw_100mw_15-15-08_PMT_C0.ome.tif
+│               ├── 04_CARS_828.8_10 acq_obj60x_400X400_350mw_300mw
+│               │   └── 04_CARS_828_8_10 acq_obj60x_400X400_350mw_300mw_15-19-03_PMT_C0.ome.tif
+│               ├── 05_CARS_816_10 acq_obj20x_400X400_120mw_100mw
+│               │   └── 05_CARS_816_10 acq_obj20x_400X400_120mw_100mw_17-01-34_PMT_C0.ome.tif
+│               ├── 05_CARS_816_10 acq_obj20x_500X500_350mw_300mw
+│               │   └── 05_CARS_816_10 acq_obj20x_500X500_350mw_300mw_15-44-30_PMT_C0.ome.tif
+│               ├── 05_CARS_816_10 acq_obj20x_750X750_350mw_300mw
+│               │   └── 05_CARS_816_10 acq_obj20x_750X750_350mw_300mw_15-41-24_PMT_C0.ome.tif
+│               ├── 05_CARS_816_10 acq_obj20x_900X900_120mw_100mw
+│               │   └── 05_CARS_816_10 acq_obj20x_900X900_120mw_100mw_17-03-18_PMT_C0.ome.tif
+│               ├── 06_CARS_816_10 acq_obj20x_400X400_120mw_100mw
+│               │   ├── 06_CARS_816_10 acq_obj20x_400X400_120mw_100mw_15-52-05_PMT_C0.ome.tif
+│               │   └── 06_CARS_816_10 acq_obj20x_400X400_120mw_100mw_15-53-24_PMT_C0.ome.tif
+│               ├── 06_CARS_816_10 acq_obj20x_630X630_120mw_100mw
+│               │   └── 06_CARS_816_10 acq_obj20x_630X630_120mw_100mw_15-50-24_PMT_C0.ome.tif
+│               ├── 14
+│               │   ├── 01_CARS_816_20obj_400x400_200mW_10aq_G60
+│               │   │   └── 01_CARS_816_20obj_400x400_200mW_10aq_G60_11-27-38_PMT_C0.ome.tif
+│               │   ├── 01_CARS_816_20obj_800x800_200mW_10aq_G60
+│               │   │   └── 01_CARS_816_20obj_800x800_200mW_10aq_G60_11-23-03_PMT_C0.ome.tif
+│               │   ├── 02.1_CARS_816_20obj_600x600_150mW_10aq_200_G50
+│               │   │   └── 02_1_CARS_816_20obj_600x600_150mW_10aq_200_G50_14-43-41_PMT_C0.ome.tif
+│               │   ├── 02.1_CARS_816_20obj_600x600_150mW_10aq_400_G50
+│               │   │   └── 02_1_CARS_816_20obj_600x600_150mW_10aq_400_G50_14-47-21_PMT_C0.ome.tif
+│               │   ├── 02.1_CARS_816_20obj_600x600_150mW_10aq_G50
+│               │   │   └── 02_1_CARS_816_20obj_600x600_150mW_10aq_G50_14-36-05_PMT_C0.ome.tif
+│               │   ├── 02.1_TPEF_816_20obj_400x400_150mW_10aq_400_G50
+│               │   │   └── 02_1_TPEF_816_20obj_400x400_150mW_10aq_400_G50_14-48-20_PMT_C0.ome.tif
+│               │   ├── 02_SRS_811_20obj_400x400_250mW_10aq_G60
+│               │   │   └── 02_SRS_811_20obj_400x400_250mW_10aq_G60_16-50-02_PMT_C0.ome.tif
+│               │   ├── 02_SRS_811_20obj_800x800_250mW_10aq_G60
+│               │   │   └── 02_SRS_811_20obj_800x800_250mW_10aq_G60_16-47-50_PMT_C0.ome.tif
+│               │   ├── 02_SRS_816_20obj_400x400_250mW_10aq_G60
+│               │   │   └── 02_SRS_816_20obj_400x400_250mW_10aq_G60_16-52-52_PMT_C0.ome.tif
+│               │   ├── 02_SRS_816_20obj_800x800_250mW_10aq_G60
+│               │   │   └── 02_SRS_816_20obj_800x800_250mW_10aq_G60_16-43-56_PMT_C0.ome.tif
+│               │   ├── 03_CARS_816_20obj_1000x1000_200mW_10aq_G60
+│               │   │   └── 03_CARS_816_20obj_1000x1000_200mW_10aq_G60_11-54-36_PMT_C0.ome.tif
+│               │   ├── 03_CARS_816_20obj_400X400_200mW_10aq_G60
+│               │   │   └── 03_CARS_816_20obj_400X400_200mW_10aq_G60_12-00-00_PMT_C0.ome.tif
+│               │   ├── 03_TPEF_816_20obj_1000x1000_200mW_10aq_G60
+│               │   │   └── 03_TPEF_816_20obj_1000x1000_200mW_10aq_G60_11-57-58_PMT_C0.ome.tif
+│               │   ├── 03_TPEF_816_20obj_400X400_200mW_10aq_G60
+│               │   │   └── 03_TPEF_816_20obj_400X400_200mW_10aq_G60_12-01-20_PMT_C0.ome.tif
+│               │   ├── 05_CARS_816_20obj_600x600_150mW_10aq_G50
+│               │   │   └── 01_CARS_816_20obj_600x600_150mW_10aq_G50_13-41-40_PMT_C0.ome.tif
+│               │   ├── 06_CARS_816_20obj_850x850_200mW_10aq_G60
+│               │   │   └── 01_CARS_816_20obj_850x850_200mW_10aq_G60_12-40-45_PMT_C0.ome.tif
+│               │   ├── 07_SRS_811_20obj_400x400_250mW_10aq_G60
+│               │   │   └── 01_SRS_811_20obj_400x400_250mW_10aq_G60_16-33-53_PMT_C0.ome.tif
+│               │   ├── 07_SRS_811_20obj_800x800_250mW_10aq_G60
+│               │   │   └── 01_SRS_811_20obj_800x800_250mW_10aq_G60_16-31-52_PMT_C0.ome.tif
+│               │   ├── 07_SRS_816_20obj_400x400_250mW_10aq_G60
+│               │   │   └── 01_SRS_816_20obj_400x400_250mW_10aq_G60_16-37-29_PMT_C0.ome.tif
+│               │   ├── 07_SRS_816_20obj_800x800_250mW_10aq_G60
+│               │   │   └── 01_SRS_816_20obj_800x800_250mW_10aq_G60_15-57-38_PMT_C0.ome.tif
+│               │   ├── 08_CARS_816_20obj_400x400_200mW_10aq_G60
+│               │   │   └── 02_CARS_816_20obj_400x400_200mW_10aq_G60_11-41-24_PMT_C0.ome.tif
+│               │   ├── 08_CARS_816_20obj_950x950_200mW_10aq_G60
+│               │   │   └── 02_CARS_816_20obj_950x950_200mW_10aq_G60_11-38-16_PMT_C0.ome.tif
+│               │   ├── 08_TPEF_816_20obj_400x400_200mW_10aq_G60
+│               │   │   └── 02_TPEF_816_20obj_400x400_200mW_10aq_G60_11-44-28_PMT_C0.ome.tif
+│               │   └── 08_TPEF_816_20obj_800x800_200mW_10aq_G70
+│               │       └── 02_TPEF_816_20obj_800x800_200mW_10aq_G70_11-37-10_PMT_C0.ome.tif
+│               ├── 7
+│               │   └── C1L7N
+│               │       ├── 04_CARS_811_10 acq_obj20x_400X400_120mw_100mw
+│               │       │   └── 04_CARS_811_10 acq_obj20x_400X400_350mw_300mw_14-47-49_PMT_C0.ome.tif
+│               │       ├── 04_CARS_811_10 acq_obj20x_750X750_120mw_100mw
+│               │       │   └── 04_CARS_811_10 acq_obj20x_350mw_300mw_14-44-51_PMT_C0.ome.tif
+│               │       ├── 04_CARS_811_10 acq_obj60x_400X400_350mw_300mw
+│               │       │   └── 04_CARS_811_10 acq_obj60x_400X400_350mw_300mw_15-16-51_PMT_C0.ome.tif
+│               │       ├── 04_CARS_816_10 acq_obj20x_400X400_120mw_100mw
+│               │       │   └── 04_CARS_816_10 acq_obj20x_400X400_120mw_100mw_14-54-09_PMT_C0.ome.tif
+│               │       ├── 04_CARS_816_10 acq_obj20x_750X750_120mw_100mw
+│               │       │   └── 04_CARS_816_10 acq_obj20x_750X750_120mw_100mw_14-51-50_PMT_C0.ome.tif
+│               │       ├── 04_CARS_816_10 acq_obj60x_400X400_350mw_300mw
+│               │       │   └── 04_CARS_816_10 acq_obj60x_400X400_120mw_100mw_15-15-08_PMT_C0.ome.tif
+│               │       ├── 04_CARS_828.8_10 acq_obj60x_400X400_350mw_300mw
+│               │       │   └── 04_CARS_828_8_10 acq_obj60x_400X400_350mw_300mw_15-19-03_PMT_C0.ome.tif
+│               │       ├── 05_CARS_816_10 acq_obj20x_500X500_350mw_300mw
+│               │       │   └── 05_CARS_816_10 acq_obj20x_500X500_350mw_300mw_15-44-30_PMT_C0.ome.tif
+│               │       ├── 05_CARS_816_10 acq_obj20x_750X750_350mw_300mw
+│               │       │   └── 05_CARS_816_10 acq_obj20x_750X750_350mw_300mw_15-41-24_PMT_C0.ome.tif
+│               │       ├── 06_CARS_816_10 acq_obj20x_400X400_120mw_100mw
+│               │       │   └── 06_CARS_816_10 acq_obj20x_400X400_120mw_100mw_15-52-05_PMT_C0.ome.tif
+│               │       ├── 06_CARS_816_10 acq_obj20x_630X630_120mw_100mw
+│               │       │   └── 06_CARS_816_10 acq_obj20x_630X630_120mw_100mw_15-50-24_PMT_C0.ome.tif
+│               │       └── 2
+│               │           ├── 01_CARS_816_10 acq_obj20x_400X400_120mw_100mw
+│               │           │   └── 01_CARS_816_10 acq_obj20x_400X400_120mw_100mw_16-20-50_PMT_C0.ome.tif
+│               │           ├── 01_CARS_816_10 acq_obj20x_750X750_120mw_100mw
+│               │           │   └── 01_CARS_816_10 acq_obj20x_750X750_120mw_100mw_16-18-35_PMT_C0.ome.tif
+│               │           ├── 02_CARS_816_10 acq_obj20x_400X400_120mw_100mw
+│               │           │   └── 02_CARS_816_10 acq_obj20x_400X400_120mw_100mw_16-32-23_PMT_C0.ome.tif
+│               │           ├── 02_CARS_816_10 acq_obj20x_750X750_120mw_100mw
+│               │           │   └── 02_CARS_816_10 acq_obj20x_750X750_120mw_100mw_16-30-35_PMT_C0.ome.tif
+│               │           ├── 02_CARS_816_10 acq_obj40x_500X500_120mw_100mw
+│               │           │   └── 02_CARS_816_10 acq_obj40x_500X500_120mw_100mw_16-38-30_PMT_C0.ome.tif
+│               │           ├── 03_CARS_816_10 acq_obj40x_500X500_120mw_100mw
+│               │           │   └── 03_CARS_816_10 acq_obj40x_500X500_120mw_100mw_16-40-41_PMT_C0.ome.tif
+│               │           ├── 04_CARS_816_10 acq_obj20x_400X400_120mw_100mw
+│               │           │   └── 04_CARS_816_10 acq_obj20x_400X400_120mw_100mw_16-50-48_PMT_C0.ome.tif
+│               │           ├── 04_CARS_816_10 acq_obj20x_750X750_120mw_100mw
+│               │           │   └── 04_CARS_816_10 acq_obj20x_750X750_120mw_100mw_16-47-06_PMT_C0.ome.tif
+│               │           ├── 05_CARS_816_10 acq_obj20x_400X400_120mw_100mw
+│               │           │   └── 05_CARS_816_10 acq_obj20x_400X400_120mw_100mw_17-01-34_PMT_C0.ome.tif
+│               │           └── 05_CARS_816_10 acq_obj20x_900X900_120mw_100mw
+│               │               └── 05_CARS_816_10 acq_obj20x_900X900_120mw_100mw_17-03-18_PMT_C0.ome.tif
+│               ├── control
+│               │   ├── 01_CARS_811_10 acq_obj60x_350mw_300mw
+│               │   │   └── 01_CARS_811_10 acq_obj60x_350mw_300mw_13-12-36_PMT_C0.ome.tif
+│               │   ├── 01_CARS_811_75 ganho_10 acq_obj20x_120mw_100mw
+│               │   │   └── 01_CARS_811_75 ganho_10 acq_obj20x_120mw_100mw_10-39-53_PMT_C0.ome.tif
+│               │   ├── 01_CARS_816_10 acq_obj60x_350mw_300mw
+│               │   │   └── 01_CARS_816_10 acq_obj60x_350mw_300mw_12-23-13_PMT_C0.ome.tif
+│               │   ├── 01_CARS_816_75 ganho_10 acq_obj20x_120mw_100mw
+│               │   │   └── 01_CARS_816_75 ganho_10 acq_obj20x_120mw_100mw_10-17-06_PMT_C0.ome.tif
+│               │   ├── 01_CARS_828.8_10 acq_obj60x_350mw_300mw
+│               │   │   └── 01_CARS_828_8_10 acq_obj60x_350mw_300mw_13-15-39_PMT_C0.ome.tif
+│               │   ├── 01_CARS_828.8_75 ganho_10 acq_obj20x_120mw_100mw
+│               │   │   └── 01_CARS_828_8_75 ganho_10 acq_obj20x_120mw_100mw_10-44-43_PMT_C0.ome.tif
+│               │   ├── 01_TPEF_811_75 ganho_10 acq_obj20x_120mw_100mw
+│               │   │   └── 01_TPFL_811_75 ganho_10 acq_obj20x_120mw_100mw_10-41-57_PMT_C0.ome.tif
+│               │   ├── 01_TPEF_816_75 ganho_10 acq_obj20x_120mw_100mw
+│               │   │   └── 01_TPFL_816_75 ganho_10 acq_obj20x_120mw_100mw_10-35-09_PMT_C0.ome.tif
+│               │   ├── 01_TPEF_828.8_75 ganho_10 acq_obj20x_120mw_100mw
+│               │   │   └── 01_TPEF_828_8_75 ganho_10 acq_obj20x_120mw_100mw_10-46-44_PMT_C0.ome.tif
+│               │   ├── 02_CARS_811_10 acq_obj20x_350mw_300mw
+│               │   │   └── 02_CARS_811_10 acq_obj20x_350mw_300mw_13-55-55_PMT_C0.ome.tif
+│               │   ├── 02_CARS_811_75 ganho_10 acq_obj20x_120mw_100mw
+│               │   │   └── 02_CARS_811_75 ganho_10 acq_obj20x_120mw_100mw_11-36-24_PMT_C0.ome.tif
+│               │   ├── 02_CARS_816_10 acq_obj20x_350mw_300mw
+│               │   │   └── 02_CARS_816_10 acq_obj20x_350mw_300mw_13-52-18_PMT_C0.ome.tif
+│               │   ├── 02_CARS_816_75 ganho_10 acq_obj20x_120mw_100mw
+│               │   │   └── 02_CARS_816_75 ganho_10 acq_obj20x_120mw_100mw_11-32-36_PMT_C0.ome.tif
+│               │   ├── 02_CARS_828.8_10 acq_obj20x_350mw_300mw
+│               │   │   └── 02_CARS_828_8_10 acq_obj20x_350mw_300mw_13-49-26_PMT_C0.ome.tif
+│               │   ├── 02_CARS_828.8_75 ganho_10 acq_obj20x_120mw_100mw
+│               │   │   └── 02_CARS_828_8_75 ganho_10 acq_obj20x_120mw_100mw_11-38-35_PMT_C0.ome.tif
+│               │   ├── 02_TPEF_816_75 ganho_10 acq_obj20x_120mw_100mw
+│               │   │   └── 02_TPEF_816_75 ganho_10 acq_obj20x_120mw_100mw_11-34-20_PMT_C0.ome.tif
+│               │   ├── 06_CARS_816_10 acq_obj20x_400X400_120mw_100mw
+│               │   │   └── 06_CARS_816_10 acq_obj20x_400X400_120mw_100mw_15-53-24_PMT_C0.ome.tif
+│               │   ├── 1_CARS_816_20obj_1000X1000_120mW_10aq_G70
+│               │   │   └── 1_CARS_816_20obj_1000X1000_120mW_10aq_G70_10-47-35_PMT_C0.ome.tif
+│               │   ├── 1_CARS_816_20obj_400X400_120mW_10aq_G70
+│               │   │   └── 1_CARS_816_20obj_400X400_180mW_10aq_G70_10-58-26_PMT_C0.ome.tif
+│               │   ├── 1_TPEF_816_20obj_1000X1000_180mW_10aq_G70
+│               │   │   └── 1_TPEF_816_20obj_1000X1000_180mW_10aq_G70_10-54-19_PMT_C0.ome.tif
+│               │   ├── 1_TPEF_816_20obj_400X400_180mW_10aq_G70
+│               │   │   └── 1_TPEF_816_20obj_400X400_180mW_10aq_G70_10-56-28_PMT_C0.ome.tif
+│               │   ├── 2_CARS_816_20obj_1000X1000_120mW_10aq_G70
+│               │   │   └── 2_CARS_816_20obj_1000X1000_120mW_10aq_G70_11-09-45_PMT_C0.ome.tif
+│               │   ├── 2_CARS_816_20obj_400X400_120mW_10aq_G70
+│               │   │   └── 2_CARS_816_20obj_400X400_120mW_10aq_G70_11-16-11_PMT_C0.ome.tif
+│               │   ├── 2_TPEF_816_20obj_1000X1000_180mW_10aq_G70
+│               │   │   └── 2_TPEF_816_20obj_1000X1000_180mW_10aq_G70_11-12-38_PMT_C0.ome.tif
+│               │   ├── 2_TPEF_816_20obj_400X400_180mW_10aq_G70
+│               │   │   └── 2_TPEF_816_20obj_400X400_180mW_10aq_G70_11-17-32_PMT_C0.ome.tif
+│               │   └── CARS_816_20obj_1000X1000_120mW_10aq_G70
+│               │       └── CARS_816_20obj_1000X1000_120mW_10aq_G70_12-47-42_PMT_C0.ome.tif
+│               └── retina
+│                   ├── 01_CARS_816_10 acq_obj20x_400X400_120mw_100mw
+│                   │   └── 01_CARS_816_10 acq_obj20x_400X400_120mw_100mw_16-15-51_PMT_C0.ome.tif
+│                   ├── 02_CARS_816_10 acq_obj20x_680X770_120mw_100mw
+│                   │   └── 02_CARS_816_10 acq_obj20x_680X770_120mw_100mw_16-30-07_PMT_C0.ome.tif
+│                   ├── 03_CARS_816_10 acq_obj20x_680X770_120mw_100mw
+│                   │   └── 03_CARS_816_10 acq_obj20x_680X770_120mw_100mw_16-35-42_PMT_C0.ome.tif
+│                   ├── 04_CARS_816_10 acq_obj20x_680X770_120mw_100mw
+│                   │   └── 04_CARS_816_10 acq_obj20x_680X770_120mw_100mw_12-56-15_PMT_C0.ome.tif
+│                   ├── 05_CARS_816_10 acq_obj20x_680X770_120mw_100mw
+│                   │   └── 05_CARS_816_10 acq_obj20x_680X770_120mw_100mw_13-00-44_PMT_C0.ome.tif
+│                   ├── 06_CARS_816_10 acq_obj20x_400X400_120mw_100mw
+│                   │   └── 06_CARS_816_10 acq_obj20x_400X400_120mw_100mw_15-01-37_PMT_C0.ome.tif
+│                   ├── 07_CARS_816_10 acq_obj20x_400X400_120mw_100mw
+│                   │   └── 07_CARS_816_10 acq_obj20x_400X400_120mw_100mw_15-06-07_PMT_C0.ome.tif
+│                   ├── 08_CARS_816_10 acq_obj20x_400X400_120mw_100mw
+│                   │   └── 08_CARS_816_10 acq_obj20x_400X400_120mw_100mw_15-11-24_PMT_C0.ome.tif
+│                   ├── 09_CARS_816_10 acq_obj20x_400X400_120mw_100mw
+│                   │   └── 09_CARS_816_10 acq_obj20x_400X400_120mw_100mw_15-34-36_PMT_C0.ome.tif
+│                   ├── 10_CARS_816_10 acq_obj20x_1000X1000_120mw_100mw
+│                   │   └── 10_CARS_816_10 acq_obj20x_1000X1000_120mw_100mw_17-28-24_PMT_C0.ome.tif
+│                   ├── 11_CARS_816_10 acq_obj20x_400X400_120mw_100mw
+│                   │   └── 11_CARS_816_10 acq_obj20x_400X400_120mw_100mw_17-50-34_PMT_C0.ome.tif
+│                   ├── 12_CARS_816_10 acq_obj20x_400X400_120mw_100mw
+│                   │   └── 12_CARS_816_10 acq_obj20x_400X400_120mw_100mw_17-59-11_PMT_C0.ome.tif
+│                   ├── 13_CARS_816_10 acq_obj20x_400X400_120mw_100mw
+│                   │   └── 13_CARS_816_10 acq_obj20x_400X400_120mw_100mw_18-03-09_PMT_C0.ome.tif
+│                   ├── 14_CARS_816_10 acq_obj20x_400X400_120mw_100mw
+│                   │   └── 14_CARS_816_10 acq_obj20x_400X400_120mw_100mw_18-04-44_PMT_C0.ome.tif
+│                   ├── 15_CARS_816_10 acq_obj20x_400X400_120mw_100mw
+│                   │   └── 15_CARS_816_10 acq_obj20x_400X400_120mw_100mw_18-08-13_PMT_C0.ome.tif
+│                   ├── 16_CARS_816_10 acq_obj20x_400X400_120mw_100mw
+│                   │   └── 16_CARS_816_10 acq_obj20x_400X400_120mw_100mw_18-16-08_PMT_C0.ome.tif
+│                   ├── 230727_06_CARS_obj20x_10aq_varredura_13-26-45
+│                   │   ├── 06_CARS_obj20x_10aq_varredura_13-26-45_PMT_C00_Time Time0000.ome.tif
+│                   │   ├── 06_CARS_obj20x_10aq_varredura_13-26-45_PMT_C00_Time Time0001.ome.tif
+│                   │   └── 06_CARS_obj20x_10aq_varredura_13-26-45_PMT_C00_Time Time0002.ome.tif
+│                   ├── 230727_06_CARS_obj20x_10aq_varredura_13-31-58
+│                   │   ├── 06_CARS_obj20x_10aq_varredura_13-31-58_PMT_C00_Time Time0000.ome.tif
+│                   │   └── 06_CARS_obj20x_10aq_varredura_13-31-58_PMT_C00_Time Time0001.ome.tif
+│                   ├── 230727_06_CARS_obj20x_10aq_varredura_13-35-27
+│                   │   ├── 06_CARS_obj20x_10aq_varredura_13-35-27_PMT_C00_Time Time0000.ome.tif
+│                   │   ├── 06_CARS_obj20x_10aq_varredura_13-35-27_PMT_C00_Time Time0001.ome.tif
+│                   │   └── 06_CARS_obj20x_10aq_varredura_13-35-27_PMT_C00_Time Time0002.ome.tif
+│                   ├── 230727_06_CARS_obj20x_10aq_varredura_13-49-05
+│                   │   ├── 06_CARS_obj20x_10aq_varredura_13-49-05_PMT_C00_Time Time0000.ome.tif
+│                   │   ├── 06_CARS_obj20x_10aq_varredura_13-49-05_PMT_C00_Time Time0001.ome.tif
+│                   │   ├── 06_CARS_obj20x_10aq_varredura_13-49-05_PMT_C00_Time Time0002.ome.tif
+│                   │   ├── 06_CARS_obj20x_10aq_varredura_13-49-05_PMT_C00_Time Time0003.ome.tif
+│                   │   ├── 06_CARS_obj20x_10aq_varredura_13-49-05_PMT_C00_Time Time0004.ome.tif
+│                   │   ├── 06_CARS_obj20x_10aq_varredura_13-49-05_PMT_C00_Time Time0005.ome.tif
+│                   │   ├── 06_CARS_obj20x_10aq_varredura_13-49-05_PMT_C00_Time Time0006.ome.tif
+│                   │   ├── 06_CARS_obj20x_10aq_varredura_13-49-05_PMT_C00_Time Time0007.ome.tif
+│                   │   ├── 06_CARS_obj20x_10aq_varredura_13-49-05_PMT_C00_Time Time0008.ome.tif
+│                   │   ├── 06_CARS_obj20x_10aq_varredura_13-49-05_PMT_C00_Time Time0009.ome.tif
+│                   │   ├── 06_CARS_obj20x_10aq_varredura_13-49-05_PMT_C00_Time Time0010.ome.tif
+│                   │   ├── 06_CARS_obj20x_10aq_varredura_13-49-05_PMT_C00_Time Time0011.ome.tif
+│                   │   └── 06_CARS_obj20x_10aq_varredura_13-49-05_PMT_C00_Time Time0012.ome.tif
+│                   ├── 230727_11_CARS_816_10 acq_obj20x_400X400_120mw_100mw_msr_17-38-52
+│                   │   ├── 11_CARS_816_10 acq_obj20x_400X400_120mw_100mw_msr_17-38-52_PMT_C00_Time Time0000.ome.tif
+│                   │   └── 11_CARS_816_10 acq_obj20x_400X400_120mw_100mw_msr_17-38-52_PMT_C00_Time Time0001.ome.tif
+│                   ├── 230727_11_CARS_816_10 acq_obj20x_400X400_120mw_100mw_msr_17-40-27
+│                   │   ├── 11_CARS_816_10 acq_obj20x_400X400_120mw_100mw_msr_17-40-27_PMT_C00_Time Time0000.ome.tif
+│                   │   ├── 11_CARS_816_10 acq_obj20x_400X400_120mw_100mw_msr_17-40-27_PMT_C00_Time Time0001.ome.tif
+│                   │   ├── 11_CARS_816_10 acq_obj20x_400X400_120mw_100mw_msr_17-40-27_PMT_C00_Time Time0002.ome.tif
+│                   │   ├── 11_CARS_816_10 acq_obj20x_400X400_120mw_100mw_msr_17-40-27_PMT_C00_Time Time0003.ome.tif
+│                   │   ├── 11_CARS_816_10 acq_obj20x_400X400_120mw_100mw_msr_17-40-27_PMT_C00_Time Time0004.ome.tif
+│                   │   ├── 11_CARS_816_10 acq_obj20x_400X400_120mw_100mw_msr_17-40-27_PMT_C00_Time Time0005.ome.tif
+│                   │   ├── 11_CARS_816_10 acq_obj20x_400X400_120mw_100mw_msr_17-40-27_PMT_C00_Time Time0006.ome.tif
+│                   │   └── 11_CARS_816_10 acq_obj20x_400X400_120mw_100mw_msr_17-40-27_PMT_C00_Time Time0007.ome.tif
+│                   ├── 230727_15_CARS_816_10 acq_obj20x_400X400_120mw_100mw_msr_18-16-08
+│                   │   ├── 15_CARS_816_10 acq_obj20x_400X400_120mw_100mw_msr_18-16-08_PMT_C00_Time Time0000.ome.tif
+│                   │   ├── 15_CARS_816_10 acq_obj20x_400X400_120mw_100mw_msr_18-16-08_PMT_C00_Time Time0001.ome.tif
+│                   │   ├── 15_CARS_816_10 acq_obj20x_400X400_120mw_100mw_msr_18-16-08_PMT_C00_Time Time0002.ome.tif
+│                   │   ├── 15_CARS_816_10 acq_obj20x_400X400_120mw_100mw_msr_18-16-08_PMT_C00_Time Time0003.ome.tif
+│                   │   ├── 15_CARS_816_10 acq_obj20x_400X400_120mw_100mw_msr_18-16-08_PMT_C00_Time Time0004.ome.tif
+│                   │   ├── 15_CARS_816_10 acq_obj20x_400X400_120mw_100mw_msr_18-16-08_PMT_C00_Time Time0005.ome.tif
+│                   │   ├── 15_CARS_816_10 acq_obj20x_400X400_120mw_100mw_msr_18-16-08_PMT_C00_Time Time0006.ome.tif
+│                   │   └── 15_CARS_816_10 acq_obj20x_400X400_120mw_100mw_msr_18-16-08_PMT_C00_Time Time0007.ome.tif
+│                   ├── 230727_Teste02_14-06-48
+│                   │   ├── Teste02_14-06-48_PMT_C00_Time Time0000.ome.tif
+│                   │   ├── Teste02_14-06-48_PMT_C00_Time Time0001.ome.tif
+│                   │   ├── Teste02_14-06-48_PMT_C00_Time Time0002.ome.tif
+│                   │   └── Teste02_14-06-48_PMT_C00_Time Time0003.ome.tif
+│                   ├── 230727_Teste02_14-14-14
+│                   │   ├── Teste02_14-14-14_PMT_C00_Time Time0000.ome.tif
+│                   │   ├── Teste02_14-14-14_PMT_C00_Time Time0001.ome.tif
+│                   │   ├── Teste02_14-14-14_PMT_C00_Time Time0002.ome.tif
+│                   │   ├── Teste02_14-14-14_PMT_C00_Time Time0003.ome.tif
+│                   │   ├── Teste02_14-14-14_PMT_C00_Time Time0004.ome.tif
+│                   │   ├── Teste02_14-14-14_PMT_C00_Time Time0005.ome.tif
+│                   │   ├── Teste02_14-14-14_PMT_C00_Time Time0006.ome.tif
+│                   │   ├── Teste02_14-14-14_PMT_C00_Time Time0007.ome.tif
+│                   │   └── Teste02_14-14-14_PMT_C00_Time Time0008.ome.tif
+│                   └── Teste03_14-27-09
+│                       └── Teste03_14-27-09_PMT_C0.ome.tif
+├── requirements-foundation.txt
+├── tree.txt
+└── visualizar.py
+
+309 directories, 770 files
